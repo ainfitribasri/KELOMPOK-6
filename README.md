@@ -11,6 +11,10 @@ Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor 
 ## 📋 Deskripsi Singkat
 
 Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun mengalami penurunan dalam satu dekade terakhir. _World Health Organization_ (WHO) mendefinisikan stunting sebagai:
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/canva%20stunting%20(1).jpg" width="800"/>
+</p>
+
 > *"Gangguan pertumbuhan dan perkembangan pada anak bayi dan balita yang ditandai dengan tinggi badannya berada di bawah standar atau pendek berdasarkan tinggi badan menurut usia yang kurang dari -2 standar deviasi (SD) pada kurva pertumbuhan yang dimiliki WHO"*
 
 Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa provinsi Nusa Tenggara Timur (NTT) memiliki prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 37%, meskipun prevalensi stunting nasional turun menjadi 19,8% dari 37,6% pada tahun 2013.
@@ -48,19 +52,15 @@ Metode yang digunakan dalam penelitian ini meliputi:
 <table>
   <tr align="center">
     <td width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Logo_Badan_Pangan_Nasional.png" width="80px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/kemenkes.png" width="80px"><br>
       <b>Kementrian Kesehatan Republik Indonesia</b>
     </td>
     <td width="150">
-      <img src="https://satudata.go.id/assets/images/satudata-logo.png" width="80px"><br>
-      <b>Survei Status Gizi Indonesia</b>
-    </td>
-    <td width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/id/thumb/1/1d/Logo_Badan_Pusat_Statistik_%282020%29.svg/1200px-Logo_Badan_Pusat_Statistik_%282020%29.svg.png" width="80px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/bps.png"><br>
       <b>Badan Pusat Statistik</b>
     </td>
     <td width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Economist_Intelligence_Unit_logo.svg" width="80px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/images.png" width="80px"><br>
       <b>Sumber Lain yang Relevan<br>(Jurnal, Artikel, Data Terbuka)</b>
     </td>
   </tr>
@@ -92,14 +92,14 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ---
 
-## 🪄 Tim Penyusun: _Three Musketheers_
+## 🪄 Tim Penyusun: Kelompok 6
 
 <table>
   <tr align="center">
     <td>
       <img src="https://github.com/USERNAME1.png" width="120px"><br>
-      <b>[Nama Anggota 1]</b><br>
-      [NIM]
+      <b>Ain Fitri Basri</b><br>
+      M050125051
     </td>
     <td>
       <img src="https://github.com/USERNAME2.png" width="120px"><br>
@@ -108,8 +108,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
     </td>
     <td>
       <img src="https://github.com/USERNAME3.png" width="120px"><br>
-      <b>[Nama Anggota 3]</b><br>
-      [NIM]
+      <b>Ain Fitri Basri</b><br>
+      M0501251051
     </td>
   </tr>
 </table>
