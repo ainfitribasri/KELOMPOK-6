@@ -29,15 +29,6 @@ Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa prov
 
 ---
 
-## 📂 Struktur Repository
-| Nama File | Deskripsi |
-|------------|------------|
-| `DATA PEMPRO KELOMPOK.csv` | Data utama penelitian dalam format CSV |
-| `DATA PEMPRO KELOMPOK.xlsx` | Data utama penelitian dalam format Excel |
-| `PEMPRO KELOMPOK.R` | Script R untuk analisis regresi berganda dan visualisasi data |
-
----
-
 ## 📊 Metodologi Analisis
 Metode yang digunakan dalam penelitian ini meliputi:
 1. **Statistik Deskriptif** – Menampilkan ringkasan variabel penelitian.  
@@ -108,8 +99,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
     </td>
     <td>
       <img src="https://github.com/USERNAME3.png" width="120px"><br>
-      <b>Ain Fitri Basri</b><br>
-      M0501251051
+      <b>Fatiya Hanifah </b><br>
+      M0501251053
     </td>
   </tr>
 </table>
