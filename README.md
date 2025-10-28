@@ -98,8 +98,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
   <tr align="center">
     <td>
       <img src="https://github.com/USERNAME1.png" width="120px"><br>
-      <b>Ain Fitri Basri</b><br>
-      M050125051
+      <b>Husnul Amira</b><br>
+      M0501251059
     </td>
     <td>
       <img src="https://github.com/USERNAME2.png" width="120px"><br>
