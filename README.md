@@ -71,11 +71,17 @@ Metode yang digunakan dalam penelitian ini meliputi:
 | ASI | Persentase Bayi Mendapat ASI Eksklusif (%) |
 
 ---
-## 📉 Analisis
+## 📉 Hasil Penelitian
+### Statistik Deskriptif
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 #### 2. Uji Signifikansi Simultan
 #### 3. Stepwise Regression
+### Model Regresi Akhir
+### Uji Kelayakan Model
+### Goodness of Fit
+### Uji Asumsi Klasik
+### Pem
 
 ---
 ## ⚙️ Tools yang Digunakan
