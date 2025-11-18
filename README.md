@@ -31,10 +31,11 @@ Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa prov
 
 ## 📊 Metodologi Analisis
 Metode yang digunakan dalam penelitian ini meliputi:
-1. **Statistik Deskriptif** – Menampilkan ringkasan variabel penelitian.  
-2. **Uji Multikolinearitas** – Menggunakan nilai *Variance Inflation Factor (VIF)* untuk memastikan tidak ada hubungan linear yang kuat antar variabel bebas.  
-3. **Analisis Regresi Berganda** – Mengetahui pengaruh variabel bebas terhadap prevalensi stunting (`ST`).  
-4. **Uji Asumsi Klasik** – Uji normalitas, heteroskedastisitas, dan autokorelasi.  
+1. **Statistik Deskriptif** – Menampilkan ringkasan variabel penelitian.
+2. **Seleksi Variabel** – 
+3. **Uji Multikolinearitas** – Menggunakan nilai *Variance Inflation Factor (VIF)* untuk memastikan tidak ada hubungan linear yang kuat antar variabel bebas.  
+4. **Analisis Regresi Berganda** – Mengetahui pengaruh variabel bebas terhadap prevalensi stunting (`ST`).  
+5. **Uji Asumsi Klasik** – Uji normalitas, heteroskedastisitas, dan autokorelasi.  
 
 ---
 
