@@ -72,8 +72,10 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ---
 ## 📉 Analisis
-
-
+### seleksi variabel (Variabel Selection)
+#### 1. Uji Signifikansi Parsial
+#### 2. Uji Signifikansi Simultan
+#### 3. Stepwise Regression
 
 ---
 ## ⚙️ Tools yang Digunakan
