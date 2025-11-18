@@ -81,7 +81,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ### Uji Kelayakan Model
 ### Goodness of Fit
 ### Uji Asumsi Klasik
-### Pem
+### Pembahasan
 
 ---
 ## ⚙️ Tools yang Digunakan
