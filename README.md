@@ -8,7 +8,7 @@ Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor 
 
 ---
 
-## 📋 Deskripsi Singkat
+## 📋 Latar Belakang
 
 Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun mengalami penurunan dalam satu dekade terakhir. _World Health Organization_ (WHO) mendefinisikan stunting sebagai:
 <p align="center">
@@ -74,6 +74,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ---
 ## 📉 Hasil Penelitian
 ### Statistik Deskriptif
+
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 #### 2. Uji Signifikansi Simultan
