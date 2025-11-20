@@ -8,7 +8,7 @@ library(lmtest)
 library(ggplot2)
 
 # Import Data
-data <- read_excel("D:/Fatiya/IPB Pascasarjana/Semester 1/Pemrograman Statistika/Github/DATA PEMPRO KELOMPOK.xlsx")
+data <- read_excel("DATA PEMPRO KELOMPOK.xlsx")
 ## Convert angka format koma menjadi titik
 data[, -1] <- lapply(data[, -1], function(x) as.numeric(gsub(",", ".", x)))
 data[, -1] <- data[, -1] / 100
@@ -80,5 +80,6 @@ ggplot(res_data, aes(x = fitted, y = residuals)) +
   )
 ## Uji Multikolinearitas
 vif(model_backward)
+
 
 
