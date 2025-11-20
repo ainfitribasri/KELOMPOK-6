@@ -105,6 +105,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
  | Model | 
  |-------|
  | ST = 0.27515 + 1.55303(BW) − 0.31686(ASL) |
+ 
   Kedua variabel tersebut signifikan pada α = 5% (p < 0.01), sehingga BW dan ASL memiliki kontribusi bermakna dalam menjelaskan perbedaan prevalensi stunting antar wilayah di provinsi NTT.
 
 ## 📊 Visualisasi Variabel Terpilih
