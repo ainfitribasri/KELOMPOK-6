@@ -77,7 +77,14 @@ Metode yang digunakan dalam penelitian ini meliputi:
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="800"/>
 </p>
 
-https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
+</p>
+
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 #### 2. Uji Signifikansi Simultan
