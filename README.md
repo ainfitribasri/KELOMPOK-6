@@ -73,7 +73,11 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ---
 ## 📉 Hasil Penelitian
 ### Statistik Deskriptif
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="800"/>
+</p>
 
+https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 #### 2. Uji Signifikansi Simultan
