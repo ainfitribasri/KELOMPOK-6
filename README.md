@@ -72,19 +72,6 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ---
 ## 📉 Hasil Penelitian
-### Statistik Deskriptif
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/sanitasi%20layak.png" width="800"/>
-</p>
-
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 | Variabel | P-Value |
@@ -116,8 +103,23 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ### Model Regresi Akhir
   Berdasarkan prosedur _backward stepwise regression_ yang meminimalkan nilai AIC, diperoleh dua variabel prediktor yang paling relevan untuk menjelaskan variabel stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL).
   Model akhir yang diperoleh adalah:
-  ST = 0.27515 + 1.55303(BW) − 0.31686(ASL)
+ | ST = 0.27515 + 1.55303(BW) − 0.31686(ASL) |
+ |-------------------------------------------|
   Kedua variabel tersebut signifikan pada α = 5% (p < 0.01), sehingga BW dan ASL memiliki kontribusi bermakna dalam menjelaskan perbedaan prevalensi stunting antar wilayah di provinsi NTT.
+
+### Visualisasi Variabel Terpilih
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/sanitasi%20layak.png" width="800"/>
+</p>
+
 ### Uji Kelayakan Model
   Secara simultan, model memberikan hasil signifikan, dimana nilai F hitungnya sebesar 6.253 dan p-value sebesar 0.00819. Artinya, BW dan ASL secara bersama-sama berpengaruh signifikan terhadap stunting.
 ### Goodness of Fit
