@@ -108,7 +108,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
  
   Kedua variabel tersebut signifikan pada α = 5% (p < 0.01), sehingga BW dan ASL memiliki kontribusi bermakna dalam menjelaskan perbedaan prevalensi stunting antar wilayah di provinsi NTT.
 
-## 📊 Visualisasi Variabel Terpilih
+#### Visualisasi Variabel Terpilih
 <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
 </p>
