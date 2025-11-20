@@ -74,15 +74,15 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ## 📉 Hasil Penelitian
 ### Statistik Deskriptif
 <p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="800"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/sanitasi%20layak.png" width="800"/>
 </p>
 
 ### seleksi variabel (Variabel Selection)
