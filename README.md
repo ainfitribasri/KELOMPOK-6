@@ -106,16 +106,6 @@ Metode yang digunakan dalam penelitian ini meliputi:
   Model regresi yang terbentuk memenuhi seluruh asumsi klasik sehingga estimasi koefisien dapat dianggap tidak bias, konsisten, dan efisien. Nilai _goodness of fit_ yang relatif kecil mencerminkan bahwa faktor stunting bersifat multidimensional, sehingga hal ini tidak menjadi masalah mengingat tujuan penelitian adalah menganalisis faktor-faktor yang berhubungan dengan stunting.
 
 ---
-## ⚙️ Tools yang Digunakan
-- **RStudio** (untuk analisis statistik dan visualisasi)
-- **GitHub Desktop** (untuk sinkronisasi file)
-- Paket R:
-  - `tidyverse`
-  - `car`
-  - `lmtest`
-  - `Metrics`
-
----
 
 ## 🪄 Tim Penyusun: Kelompok 6
 
