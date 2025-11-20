@@ -102,7 +102,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ### Model Regresi Akhir
   Berdasarkan prosedur _backward stepwise regression_ yang meminimalkan nilai AIC, diperoleh dua variabel prediktor yang paling relevan untuk menjelaskan variabel stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL).
-  Model akhir yang diperoleh adalah:
+ | Model | 
+ |-------|
  | ST = 0.27515 + 1.55303(BW) − 0.31686(ASL) |
   Kedua variabel tersebut signifikan pada α = 5% (p < 0.01), sehingga BW dan ASL memiliki kontribusi bermakna dalam menjelaskan perbedaan prevalensi stunting antar wilayah di provinsi NTT.
 
