@@ -139,6 +139,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
   Secara simultan, model memberikan hasil signifikan, dimana nilai F hitungnya sebesar 6.253 dan p-value sebesar 0.00819. Artinya, BW dan ASL secara bersama-sama berpengaruh signifikan terhadap stunting.
 ### Goodness of Fit
   Berdasarkan model, didapatkan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335. Hal ini menunjukkan bahwa 33.35% variasi stunting antar wilayah dapat dijelaskan oleh variabel BW dan ASL. Nilai ini cukup baik untuk konteks data sosial-kesehatan yang umumnya memiliki variabilitas tinggi karena dipengaruhi oleh berbagai faktor kompleks yang tidak seluruhnya tercakup dalam model.
+  
   Model akhir ini juga memiliki AIC lebih rendah dibandingkan model awal, sehingga dianggap lebih efisien tanpa mengurangi kualitas model secara signifikan
 ### Uji Asumsi Klasik
 1. Uji Normalitas:
@@ -153,6 +154,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 </p>
 4. Uji Multikolinearitas:
    Uji multikolinearitas dilakukan dengan VIF, dimana variabel BW dan ASL memiliki nilai VIF sebesar 1.28. Karena nilai VIF berada dibawah 10, maka hal ini menandakan tidak terdapat multikolinearitas pada model.
+
 ### Pembahasan
   Hasil menunjukkan bahwa dua variabel utama, yakni Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL) memiliki hubungan signifikan terhadap prevalensi stunting.
 1. Berat Badan Lahir Rendah (BW):
