@@ -141,7 +141,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 |-------------|---------|
 | 6,253 | 0,00819 |
 
-  Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai F-_statistic_ sebesar 6.253 dan _p-value_ 0.00819. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
+  Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
 
 ### Goodness of Fit
 
@@ -149,7 +149,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 |-------------|---------|
 | 0,3969 | 0,3335 |
   
-  Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL. Presentase ini sudah tergolong cukup baik untuk konteks penelitian sosial-kesehatan, mengingat fenomena stunting dipengaruhi oleh berbagai faktor kompleks yang tidak seluruhnya dapat dimasukkan ke dalam model.
+  Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL.
   
   Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
   
@@ -160,7 +160,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 |---------|---------|
 | 0,9411 | 0,2084 |
 
-   Uji Shapiro-Wilk terhadap residual menghasilkan W sebesar 0.9411 dan _p-value_ 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
+   Uji Shapiro-Wilk terhadap residual menghasilkan _p-value_ sebesar 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="800"/>
 </p>
@@ -170,7 +170,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 |--------------------|---------|
 | 4,2378 | 0,1202 |
 
-   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai BP sebesar 4.2378 dan p-value 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
+   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai _p-value_ 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="800"/>
 </p>
@@ -202,9 +202,8 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
 3. Model Regresi yang Terbentuk
 
-\[
-\text{ST} = 0.27515 + 1.55303(\text{BW}) - 0.31686(\text{ASL})
-\]
+   ST = 0.27515 + 1.55303(BW) − 0.31686(ASL)
+
    Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada tingkat α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
    
 4. Kualitas Model
