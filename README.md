@@ -24,9 +24,8 @@ Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa prov
 ## 🎯 Tujuan Penelitian
 1. Menganalisis kondisi stunting di NTT tahun 2024 secara deskriptif.  
 2. Mengidentifikasi faktor-faktor yang memengaruhi prevalensi stunting.  
-3. Menguji seberapa besar pengaruh masing-masing faktor menggunakan model regresi berganda.  
-4. Memberikan saran kebijakan untuk menurunkan angka stunting di NTT.
-
+3. Menguji seberapa besar pengaruh masing-masing faktor menggunakan model regresi berganda.
+   
 ---
 
 ## 📊 Metodologi Analisis
