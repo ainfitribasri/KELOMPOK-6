@@ -143,9 +143,15 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 ### Uji Asumsi Klasik
 1. Uji Normalitas:
    Berdasarkan uji Shapiro-Wilk residual didapatkan nilai W sebesar 0.9411 dan p-value sebesar 0.2084. Karena nilai p-value > 0.05, maka residual dianggap berdistribusi normal. Kesimpulan ini juga didukung oleh QQ-plot.
-2. Uji Heteroskedastisitas:
+   <p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="800"/>
+</p>
+3. Uji Heteroskedastisitas:
    Breusch-Pagan Test digunakan untuk uji heteroskedastisitas, dimana nilai BP didapatkan sebesar 4.2378 dan p-value sebesar 0.1202 > 0.05. Oleh karena, dapat disimpulkan tidak ada indikasi heteroskedastisitas pada model. Plot residual vs fitted juga menunjukkan penyebaran acak.
-3. Uji Multikolinearitas:
+   <p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="800"/>
+</p>
+4. Uji Multikolinearitas:
    Uji multikolinearitas dilakukan dengan VIF, dimana variabel BW dan ASL memiliki nilai VIF sebesar 1.28. Karena nilai VIF berada dibawah 10, maka hal ini menandakan tidak terdapat multikolinearitas pada model.
 ### Pembahasan
   Hasil menunjukkan bahwa dua variabel utama, yakni Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL) memiliki hubungan signifikan terhadap prevalensi stunting.
