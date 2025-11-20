@@ -74,6 +74,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ## 📉 Hasil Penelitian
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
+Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (ST) secara individual.
+
 | Variabel | P-Value |
 |----------|---------|
 | PM | 0,3649 |
@@ -83,10 +85,16 @@ Metode yang digunakan dalam penelitian ini meliputi:
 | LS | 0,7665 |
 | ASI | 0,7300 |
 
+Hanya variabel BW (Berat Badan Lahir) dan ASL (Air Susu Ibu Eksklusif) yang memiliki kontribusi signifikan dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
+
 #### 2. Uji Signifikansi Simultan
+Uji ini digunakan untuk menentukan apakah seluruh variabel independen secara bersama-sama berpengaruh terhadap ST.
+
 | F-Statistic | P-Value |
 |----------|---------|
 | 1,904 | 0,146 |
+
+Karena p-value > 0.05, maka secara simultan keenam variabel tidak memiliki pengaruh signifikan secara bersama-sama terhadap ST. Ini berarti model awal masih memiliki variabel yang tidak perlu, sehingga harus dilakukan seleksi variabel agar model lebih sederhana dan lebih baik.
 
 #### 3. Stepwise Regression
 | Variabel | P-Value | Keterangan |
