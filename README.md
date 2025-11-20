@@ -87,6 +87,15 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ### seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
+| Variabel | P-Value |
+|----------|---------|
+| PM | 0,3649 |
+| BW | 0,0178 |
+| ASL | 0,0919 |
+| AML | 0,6090 |
+| LS | 0,7665 |
+| ASI | 0,7300 |
+
 #### 2. Uji Signifikansi Simultan
 #### 3. Stepwise Regression
 ### Model Regresi Akhir
