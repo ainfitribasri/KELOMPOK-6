@@ -97,6 +97,10 @@ Metode yang digunakan dalam penelitian ini meliputi:
 | ASI | 0,7300 |
 
 #### 2. Uji Signifikansi Simultan
+| F-Statistic | P-Value |
+|----------|---------|
+| 1,904 | 0,146 |
+
 #### 3. Stepwise Regression
 ### Model Regresi Akhir
   Berdasarkan prosedur _backward stepwise regression_ yang meminimalkan nilai AIC, diperoleh dua variabel prediktor yang paling relevan untuk menjelaskan variabel stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL).
