@@ -85,7 +85,7 @@ Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel i
 | LS | 0,7665 |
 | ASI | 0,7300 |
 
-Hanya variabel BW (Berat Badan Lahir) dan ASL (Air Susu Ibu Eksklusif) yang memiliki kontribusi signifikan dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
+Hanya variabel BW (Berat Badan Lahir) dan ASL (Akses Sanitasi Layak) yang memiliki kontribusi signifikan dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
 
 #### 2. Uji Signifikansi Simultan
 Uji ini digunakan untuk menentukan apakah seluruh variabel independen secara bersama-sama berpengaruh terhadap ST.
@@ -115,12 +115,12 @@ Model dengan nilai AIC dan BIC lebih rendah dianggap lebih baik.
 Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibanding model awal.
 
 ### Model Regresi Akhir
-  Berdasarkan prosedur _backward stepwise regression_ yang meminimalkan nilai AIC, diperoleh dua variabel prediktor yang paling relevan untuk menjelaskan variabel stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL).
+  Berdasarkan prosedur _backward stepwise regression_ yang memilih model dengan nilai AIC paling rendah, diperoleh bahwa terdapat dua variabel prediktor yang tetap signifikan dalam menjelaskan variabel prevalensi stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL).
  | Model | 
  |-------|
  | ST = 0.27515 + 1.55303(BW) − 0.31686(ASL) |
  
-  Kedua variabel tersebut signifikan pada α = 5% (p < 0.01), sehingga BW dan ASL memiliki kontribusi bermakna dalam menjelaskan perbedaan prevalensi stunting antar wilayah di provinsi NTT.
+  Kedua variabel signifikan pada tingkat signifikansi α = 0.05 (p < 0.01), sehingga dapat disimpulkan bahwa BW dan ASL berkontribusi secara bermakna dalam menjelaskan variasi prevalensi stunting antar wilayah di provinsi NTT.
 
 #### Visualisasi Variabel Terpilih
 <p align="center">
@@ -136,33 +136,80 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 </p>
 
 ### Uji Kelayakan Model
-  Secara simultan, model memberikan hasil signifikan, dimana nilai F hitungnya sebesar 6.253 dan p-value sebesar 0.00819. Artinya, BW dan ASL secara bersama-sama berpengaruh signifikan terhadap stunting.
+
+| F-Statistic | P-Value |
+|-------------|---------|
+| 6,253 | 0,00819 |
+
+  Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai F-_statistic_ sebesar 6.253 dan _p-value_ 0.00819. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
+
 ### Goodness of Fit
-  Berdasarkan model, didapatkan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335. Hal ini menunjukkan bahwa 33.35% variasi stunting antar wilayah dapat dijelaskan oleh variabel BW dan ASL. Nilai ini cukup baik untuk konteks data sosial-kesehatan yang umumnya memiliki variabilitas tinggi karena dipengaruhi oleh berbagai faktor kompleks yang tidak seluruhnya tercakup dalam model.
+
+| R-Squared | Adj. R-Squared |
+|-------------|---------|
+| 0,3969 | 0,3335 |
   
-  Model akhir ini juga memiliki AIC lebih rendah dibandingkan model awal, sehingga dianggap lebih efisien tanpa mengurangi kualitas model secara signifikan
+  Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL. Presentase ini sudah tergolong cukup baik untuk konteks penelitian sosial-kesehatan, mengingat fenomena stunting dipengaruhi oleh berbagai faktor kompleks yang tidak seluruhnya dapat dimasukkan ke dalam model.
+  
+  Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
+  
 ### Uji Asumsi Klasik
 1. Uji Normalitas:
-   Berdasarkan uji Shapiro-Wilk residual didapatkan nilai W sebesar 0.9411 dan p-value sebesar 0.2084. Karena nilai p-value > 0.05, maka residual dianggap berdistribusi normal. Kesimpulan ini juga didukung oleh QQ-plot.
+
+| W | P-Value |
+|---------|---------|
+| 0,9411 | 0,2084 |
+
+   Uji Shapiro-Wilk terhadap residual menghasilkan W sebesar 0.9411 dan _p-value_ 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="800"/>
 </p>
 2. Uji Heteroskedastisitas:
-   Breusch-Pagan Test digunakan untuk uji heteroskedastisitas, dimana nilai BP didapatkan sebesar 4.2378 dan p-value sebesar 0.1202 > 0.05. Oleh karena, dapat disimpulkan tidak ada indikasi heteroskedastisitas pada model. Plot residual vs fitted juga menunjukkan penyebaran acak.
+
+| Breusch-Pagan Test | P-Value |
+|--------------------|---------|
+| 4,2378 | 0,1202 |
+
+   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai BP sebesar 4.2378 dan p-value 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="800"/>
 </p>
 3. Uji Multikolinearitas:
-   Uji multikolinearitas dilakukan dengan VIF, dimana variabel BW dan ASL memiliki nilai VIF sebesar 1.28. Karena nilai VIF berada dibawah 10, maka hal ini menandakan tidak terdapat multikolinearitas pada model.
+
+| Variabel | VIF |
+|----------|---------|
+| BW | 1,280275 |
+| ASL | 1,280275 |
+
+   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
 ### Pembahasan
-  Hasil menunjukkan bahwa dua variabel utama, yakni Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL) memiliki hubungan signifikan terhadap prevalensi stunting.
-1. Berat Badan Lahir Rendah (BW):
-   Berat Badan Lahir Rendah memiliki hubungan signifikan terhadap prevalensi stunting dengan nilai koefisien sebesar 1.55. Artinya wilayah dengan proporsi berat badan lahir rendah yang lebih tinggi cenderung memiliki prevalensi stunting lebih tinggi juga. Hal ini sejalan dengan literatur yang menyatakan bahwa gizi buruk sejak lahir berdampak pada pertumbuhan linier anak.
-2. Anak Sakit dalam 1 Bulan Terakhir (ASL):
-   Anak Sakit dalam 1 Bulan Terakhir juga memiliki hubungan signifikan terhadap prevalensi stunting dengan nilai koefisien sebesar -0.32. Hubungan negatif tersebut mencerminkan wilayah dengan pelaporan penyakit lebih baik seringkali juga memiliki akses layanan kesehatan lebih baik, sehingga dapat berdampak pada pencegahan stunting.
+  Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap prevalensi stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
+  
+1. Pengaruh Berat Badan Lahir Rendah (BW) terhadap Prevalensi Stunting (ST):
+   Variabel BW memiliki koefisien positif sebesar 1.55303, yang berarti semakin tinggi proporsi bayi dengan berat badan lahir rendah disuatu wilayah, maka semakin tinggi pula prevalensi stunting di wilayah tersebut.
 
-  Model regresi yang terbentuk memenuhi seluruh asumsi klasik sehingga estimasi koefisien dapat dianggap tidak bias, konsisten, dan efisien. Nilai _goodness of fit_ yang relatif kecil mencerminkan bahwa faktor stunting bersifat multidimensional, sehingga hal ini tidak menjadi masalah mengingat tujuan penelitian adalah menganalisis faktor-faktor yang berhubungan dengan stunting.
+   Secara biologis dan epidemiologis, temuan ini sangat konsisten dengan literatur. Bayi yang lahir dengan berat badan rendah memiliki resiko lebih tinggi mengalami gangguan pertumbuhan linier, karena kondisi tersebut menunjukkan bahwa malnutrisi atau masalah kesehatan sudah terjadi sejak masa kehamilan. BW juga sering menjadi indikator kualitas gizi ibu hamil dan kesehatan pralahir.
+
+   Dengan demikian, peningkatan prevalensi BW di suatu wilayah dapat menjadi faktor kuat yang mendorong meningkatnya kasus stunting.
+   
+2. Pengaruh Akses Sanitasi Layak (ASL) terhadap Prevalensi Stunting (ST):
+   Variabel ASL memiliki koefisien negatif sebesar -0.31686, yang menunjukkan bahwa semakin tinggi presentase rumah tangga dengan akses sanitasi layak, maka semakin rendah prevalensi stunting.
+
+   Akses sanitasi yang buruk berhubungan dengan tingginya resiko penyakit infeksi, terutama diare dan penyakit lingkungan lain yang menyebabkan penurunan penyerapan nutrisi. Akses sanitasi yang lebih baik berkontribusi pada lingkungan hidup yang sehat, mengurangi paparan infeksi, sehingga berdampak positif terhadap pertumbuhan anak.
+
+   Temuan model sejalan dengan studi kesehatan masyarakat yang menyatakan bahwa faktor lingkungan dan sanitasi memiliki peran penting dalam mencegah stunting.
+
+3. Model Regresi yang Terbentuk
+
+\[
+\text{ST} = 0.27515 + 1.55303(\text{BW}) - 0.31686(\text{ASL})
+\]
+   Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada tingkat α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
+   
+4. Kualitas Model
+   
+   Nilai _Adjusted R-squared_ sebesar 0.3335 menunjukkan bahwa sekitar 33.35% variasi prevalensi stunting antar wilayah dapat dijelaskan oleh variabel BW dan ASL. Pada penelitian sosial-kesehatan, nilai ini tergolong cukup baik, karena stunting adalah fenomena kompleks yang dipengaruhi banyak faktor (gizi, sosial ekonomi, lingkungan, kesehatan ibu, pola asuh, dll). Selain itu, model statistik untuk fenomena multidimensional jarang memiliki _R-Squared_ tinggi, sehingga hal ini tidak menjadi masalah mengingat tujuan penelitian adalah penentuan faktor yang signifikan berhubungan dengan stunting. Dengan demikian, model sudah memadai dan informatif untuk kajian epidemiologi.
 
 ---
 
