@@ -91,22 +91,28 @@ Hanya variabel BW (Berat Badan Lahir) dan ASL (Air Susu Ibu Eksklusif) yang memi
 Uji ini digunakan untuk menentukan apakah seluruh variabel independen secara bersama-sama berpengaruh terhadap ST.
 
 | F-Statistic | P-Value |
-|----------|---------|
+|-------------|---------|
 | 1,904 | 0,146 |
 
 Karena p-value > 0.05, maka secara simultan keenam variabel tidak memiliki pengaruh signifikan secara bersama-sama terhadap ST. Ini berarti model awal masih memiliki variabel yang tidak perlu, sehingga harus dilakukan seleksi variabel agar model lebih sederhana dan lebih baik.
 
 #### 3. Stepwise Regression
+Seleksi variabel lanjutan dilakukan menggunakan metode stepwise (backward) berbasis kriteria AIC. Proses backward secara bertahap mengeluarkan variabel yang tidak signifikan dan menyimpan variabel yang signifikan. didapatkan 2 variabel yang signifikan yaitu :
+
 | Variabel | P-Value | Keterangan |
 |----------|---------|------------|
 | BW | 0,00538 | Signifikan |
 | ASL | 0,00905 | signifikan |
+
+pada hasil akhir menunjukkan bahwa BW dan ASL adalah dua variabel yang paling berpengaruh terhadap tingkat stunting, sementara variabel lain tidak meningkatkan performa model. berdasarkan hasil variabel signifikan diatas, maka model terbaik yang dipilih berdasarkan nilai AIC dan BIC yaitu :
 
 | Model | AIC | BIC |
 |-------|-----|-----|
 | Model Awal (6 variabel | -50,85 | -42,12 |
 | Model Backward (2 variabel) | -57,52 | -53,16 |
 
+Model dengan nilai AIC dan BIC lebih rendah dianggap lebih baik.
+Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibanding model awal.
 
 ### Model Regresi Akhir
   Berdasarkan prosedur _backward stepwise regression_ yang meminimalkan nilai AIC, diperoleh dua variabel prediktor yang paling relevan untuk menjelaskan variabel stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Anak Sakit dalam 1 Bulan Terakhir (ASL).
