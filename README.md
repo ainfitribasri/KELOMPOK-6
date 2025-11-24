@@ -217,7 +217,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 <table>
   <tr align="center">
     <td>
-      <img src="https://github.com/USERNAME1.png" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Latar%20Putih_Husnul%20Amira%20(1)%20(2).jpg" width="120px"><br>
       <b>Husnul Amira</b><br>
       M0501251059
     </td>
