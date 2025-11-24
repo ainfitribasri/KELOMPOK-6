@@ -132,7 +132,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 </p>
 
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/sanitasi%20layak.png" width="800"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="800"/>
 </p>
 
 ### Uji Kelayakan Model
