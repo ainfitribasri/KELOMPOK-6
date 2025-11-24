@@ -212,6 +212,18 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
 ---
 
+## Kesimpulan
+
+Berdasarkan hasil analisis yang dilakukan, dapat disimpulkan bahwa kondisi stunting di Provinsi Nusa Tenggara Timur (NTT) pada tahun 2024 menunjukkan variasi antarwilayah yang cukup tinggi, dimana beberapa kabupaten seperti Sumba Barat Daya, Timor Tengah Utara, dan Timor Tengah Selatan memiliki prevalensi stunting yang relatif lebih besar dibandingkan kabupaten lainnya. Analisis faktor-faktor yang memengaruhi stunting menunjukkan bahwa dari enam variabel kandidat yang diuji, hanya dua variabel yang konsisten memberikan pengaruh signifikan terhadap prevalensi stunting, yaitu Berat Badan Lahir Rendah atau balita wasting (BW) serta Akses Sanitasi Layak (ASL). Variabel lainnya seperti PM, AML, LS, dan ASI tidak memberikan kontribusi signifikan dan dieliminasi pada proses seleksi variabel menggunakan metode backward stepwise regression. Model terbaik yang diperoleh menghasilkan persamaan ST = 0,27515 + 1,55303(BW) – 0,31686(ASL), yang menunjukkan bahwa peningkatan proporsi balita wasting di suatu wilayah berasosiasi dengan meningkatnya prevalensi stunting, sedangkan peningkatan akses sanitasi layak berhubungan dengan penurunan prevalensi stunting. Model ini memiliki nilai Adjusted R-squared sebesar 0,3335 yang berarti sekitar 33,35% variasi prevalensi stunting antarwilayah dapat dijelaskan oleh kedua variabel tersebut. Hasil pengujian asumsi klasik menunjukkan bahwa model memenuhi asumsi normalitas, homoskedastisitas, dan tidak terjadi multikolinearitas, sehingga model yang diperoleh dapat dianggap layak, stabil, dan mampu memberikan gambaran yang informatif terkait faktor-faktor utama yang memengaruhi prevalensi stunting di NTT.
+
+---
+
+## Manfaat
+
+Penelitian ini memberikan manfaat penting bagi upaya penanggulangan stunting di Provinsi Nusa Tenggara Timur. Temuan mengenai variasi prevalensi antarwilayah dan identifikasi faktor signifikan seperti wasting (BW) dan akses sanitasi layak (ASL) menjadi dasar yang kuat bagi pemerintah daerah dalam menentukan prioritas intervensi di wilayah yang berisiko tinggi. Selain itu, variabel-variabel signifikan tersebut dapat digunakan sebagai indikator kunci dalam pemantauan dan evaluasi program penurunan stunting, sehingga kebijakan yang diambil dapat lebih terarah dan berbasis bukti. Dari sisi teknis, penelitian ini menyediakan kerangka analisis statistik yang dapat dijadikan rujukan bagi studi lanjutan maupun pengembangan model prediksi risiko stunting di masa mendatang. Hasil penelitian ini juga memberikan kontribusi terhadap penguatan kajian kesehatan masyarakat, karena menegaskan pentingnya perbaikan gizi awal kehidupan dan sanitasi lingkungan sebagai komponen utama dalam intervensi multidimensi penurunan stunting. Dengan demikian, penelitian ini tidak hanya memberikan pemahaman empiris, tetapi juga mendukung perumusan kebijakan dan strategi pembangunan kesehatan yang lebih efektif dan berkelanjutan.
+
+---
+
 ## 🪄 Tim Penyusun: Kelompok 6
 
 <table>
@@ -222,12 +234,12 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
       M0501251059
     </td>
     <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Pas%20Foto%20Latar%20Putih.jpg" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/2025-11-24-16-14-12-817.jpg" width="120px"><br>
       <b>Fatiya Hanifah</b><br>
       M0501251053
     </td>
     <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Tanpa%20judul%20(3%20%C3%97%204%20cm).jpg" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/ain.png" width="120px"><br>
       <b>Ain Fitri Basri</b><br>
       M0501251051
     </td>
