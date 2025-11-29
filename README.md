@@ -12,7 +12,9 @@ Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor 
 
 Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun mengalami penurunan dalam satu dekade terakhir. _World Health Organization_ (WHO) mendefinisikan stunting sebagai:
 <p align="center">
-<img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Maps%20Stunting%20Indonesia%202024.jpg" width="900"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Maps%20Stunting%20Indonesia%202024.jpg" width="900"/>
+  <br>
+  <b>Gambar 1. Persebaran Stunting di Indonesia</b>
 </p>
 
 > *"Gangguan pertumbuhan dan perkembangan pada anak bayi dan balita yang ditandai dengan tinggi badannya berada di bawah standar atau pendek berdasarkan tinggi badan menurut usia yang kurang dari -2 standar deviasi (SD) pada kurva pertumbuhan yang dimiliki WHO"*
@@ -124,15 +126,21 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
 #### Visualisasi Variabel Terpilih
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="50%"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="500"/>
+  <br>
+  <b>Gambar 2. Persebaran stunting di Nusa Tenggara Timur</b>
 </p>
 
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="50%"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="500"/>
+  <br>
+  <b>Gambar 3. Persebaran Balita Wasting di Nusa Tenggara Timur</b>
 </p>
 
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="50%"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="500"/>
+  <br>
+  <b>Gambar 4. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
 </p>
 
 ### Uji Kelayakan Model
@@ -183,6 +191,22 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
    Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
+### 🔢 Hasil Analisis Regresi Berganda
+Model regresi berganda yang terbentuk adalah sebagai berikut:
+
+$$
+ST = \beta_0 + \beta_1 BW + \beta_2 ASL + \varepsilon
+$$
+
+| Variabel | Koefisien | P-Value | Interpretasi |
+|-----------|-----------:|---------:|---------------|
+| BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
+| ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
+
+Nilai **R² = 0.3969** menunjukkan bahwa 39,69% variasi prevalensi stunting di Provinsi NTT dapat dijelaskan oleh kedua variabel ini.  
+Dengan demikian, faktor **balita wasting** dan **akses sanitasi layak** merupakan determinan utama yang memengaruhi prevalensi stunting di Provinsi NTT tahun 2024.
+
+
 ### Pembahasan
   Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap prevalensi stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
   
@@ -202,7 +226,10 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
 3. Model Regresi yang Terbentuk
 
-   ST = 0.27515 + 1.55303(BW) − 0.31686(ASL)
+$$
+ST = \0.27515 + \1.55303(BW) - 0.31686(ASL) 
+$$
+  
 
    Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada tingkat α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
    
@@ -246,6 +273,8 @@ Penelitian ini memberikan manfaat penting bagi upaya penanggulangan stunting di 
   </tr>
 </table>
 
+---
+> ✨ *“Anak sehat hari ini, generasi tangguh masa depan.”*
 ---
 
 **Lisensi:** All Rights Reserved • IPB University, 2025
