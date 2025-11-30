@@ -56,15 +56,15 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ---
 
 ## 📈 Variabel Penelitian
-| Kode | Keterangan |
-|------|-------------|
-| ST | Prevalensi Stunting (%) |
-| PM | Persentase Penduduk Miskin (%) |
-| BW | Berat Badan Lahir Rendah (%) |
-| ASL | Angka Sumber Air Layak (%) |
-| AML | Angka Makan Layak (%) |
-| LS | Lama Sekolah (tahun) |
-| ASI | Persentase Bayi Mendapat ASI Eksklusif (%) |
+| Kode | Keterangan | Sumber | 
+|------|------------|--------|
+| ST | Prevalensi Stunting (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ4OSMy/jumlah-balita-stunting-menurut-kabupaten-kota.html)| 
+| PM | Persentase Penduduk Miskin (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/NTg0IzI=/persentase-penduduk-miskin-menurut-kabupaten-kota.html) |  
+| BW | Berat Badan Lahir Rendah (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTU3MiMy/jumlah-dan-persentase-balita-wasting-menurut-kabupaten-kota.html) |  
+| ASL | Angka Sumber Air Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTUyNyMy/persentase-rumah-tangga-dengan-akses-sanitasi-layak.html) |  
+| AML | Angka Makan Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTc5MiMy/persentase-rumah-tangga-dengan-akses-air-minum-layak.html) |  
+| LS | Lama Sekolah (tahun) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ1OCMy/rata-rata-lamanya-sekolah-menurut-jenis-kelamin.html) |  
+| ASI | Persentase Bayi Mendapat ASI Eksklusif (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/NjE0IzI=/persentase-penduduk-umur-0-23-bulan-baduta-yang-pernah-diberi-asi-menurut-kabupaten-kota.html) |  
 
 ---
 ## 📉 Hasil Penelitian
