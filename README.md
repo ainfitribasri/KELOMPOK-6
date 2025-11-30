@@ -24,19 +24,17 @@ Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa prov
 ---
 
 ## 🎯 Tujuan Penelitian
-1. Menganalisis kondisi stunting di NTT tahun 2024 secara deskriptif.  
-2. Mengidentifikasi faktor-faktor yang memengaruhi prevalensi stunting.  
-3. Menguji seberapa besar pengaruh masing-masing faktor menggunakan model regresi berganda.
+1. Mengidentifikasi faktor-faktor yang memengaruhi prevalensi stunting.  
+2. Menguji seberapa besar pengaruh masing-masing faktor menggunakan model regresi berganda.
    
 ---
 
 ## 📊 Metodologi Analisis
 Metode yang digunakan dalam penelitian ini meliputi:
-1. **Statistik Deskriptif** – Menampilkan ringkasan variabel penelitian.
-2. **Seleksi Variabel** – Seleksi variabel digunakan untuk memilih variabel terbaik yang benar-benar penting, relevan, dan berkontribusi signifikan dalam sebuah model suatu regresi.
-3. **Uji Multikolinearitas** – Menggunakan nilai *Variance Inflation Factor (VIF)* untuk memastikan tidak ada hubungan linear yang kuat antar variabel bebas.  
-4. **Analisis Regresi Berganda** – Mengetahui pengaruh variabel bebas terhadap prevalensi stunting (`ST`).  
-5. **Uji Asumsi Klasik** – Uji normalitas, heteroskedastisitas, dan multikolinearitas.  
+1. **Seleksi Variabel** – Seleksi variabel digunakan untuk memilih variabel terbaik yang benar-benar penting, relevan, dan berkontribusi signifikan dalam sebuah model suatu regresi.
+2. **Uji Multikolinearitas** – Menggunakan nilai *Variance Inflation Factor (VIF)* untuk memastikan tidak ada hubungan linear yang kuat antar variabel bebas.  
+3. **Analisis Regresi Berganda** – Mengetahui pengaruh variabel bebas terhadap prevalensi stunting (`ST`).  
+4. **Uji Asumsi Klasik** – Uji normalitas, heteroskedastisitas, dan multikolinearitas.  
 
 ---
 
@@ -44,10 +42,6 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 <table>
   <tr align="center">
-    <td width="150">
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/kemenkes.png" width="80px"><br>
-      <b>Kementrian Kesehatan Republik Indonesia</b>
-    </td>
     <td width="150">
       <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/bps.png"><br>
       <b>Badan Pusat Statistik</b>
@@ -74,7 +68,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ---
 ## 📉 Hasil Penelitian
-### seleksi variabel (Variabel Selection)
+### 🔍 seleksi variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (ST) secara individual.
 
