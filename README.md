@@ -195,7 +195,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 Model regresi berganda yang terbentuk adalah sebagai berikut:
 
 $$
-ST = \beta_0 + \beta_1 BW + \beta_2 ASL + \varepsilon
+ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
 $$
 
 | Variabel | Koefisien | P-Value | Interpretasi |
@@ -227,7 +227,7 @@ Dengan demikian, faktor **balita wasting** dan **akses sanitasi layak** merupaka
 3. Model Regresi yang Terbentuk
 
 $$
-ST = \0.27515 + \1.55303(BW) - 0.31686(ASL) 
+ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
 $$
   
 
