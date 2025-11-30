@@ -145,7 +145,7 @@ ST = 0.27515 + 1.55303(BW) - 0.31686(ASL)
 $$
 
 | Variabel | Koefisien | P-Value | Interpretasi |
-|-----------|-----------:|---------:|---------------|
+|-----------|----------|---------|--------------|
 | BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
 | ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
 
