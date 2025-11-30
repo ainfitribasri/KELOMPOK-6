@@ -143,7 +143,19 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
   <b>Gambar 4. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
 </p>
 
-### Uji Kelayakan Model
+### 🔢 Hasil Analisis Regresi Berganda
+Model regresi berganda yang terbentuk adalah sebagai berikut:
+
+$$
+ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
+$$
+
+| Variabel | Koefisien | P-Value | Interpretasi |
+|-----------|-----------:|---------:|---------------|
+| BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
+| ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
+
+#### Uji Kelayakan Model
 
 | F-Statistic | P-Value |
 |-------------|---------|
@@ -151,7 +163,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 
   Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
 
-### Goodness of Fit
+#### Goodness of Fit
 
 | R-Squared | Adj. R-Squared |
 |-------------|---------|
@@ -161,7 +173,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
   
   Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
   
-### Uji Asumsi Klasik
+#### Uji Asumsi Klasik
 1. Uji Normalitas:
 
 | W | P-Value |
@@ -190,22 +202,6 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 | ASL | 1,280275 |
 
    Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
-
-### 🔢 Hasil Analisis Regresi Berganda
-Model regresi berganda yang terbentuk adalah sebagai berikut:
-
-$$
-ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
-$$
-
-| Variabel | Koefisien | P-Value | Interpretasi |
-|-----------|-----------:|---------:|---------------|
-| BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
-| ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
-
-Nilai **R² = 0.3969** menunjukkan bahwa 39,69% variasi prevalensi stunting di Provinsi NTT dapat dijelaskan oleh kedua variabel ini.  
-Dengan demikian, faktor **balita wasting** dan **akses sanitasi layak** merupakan determinan utama yang memengaruhi prevalensi stunting di Provinsi NTT tahun 2024.
-
 
 ### Pembahasan
   Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap prevalensi stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
