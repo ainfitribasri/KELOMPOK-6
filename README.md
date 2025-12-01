@@ -85,6 +85,27 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 ---
 ## 📉 Hasil Penelitian
+1. **Model Awal dengan Seluruh Variabel**
+   
+   - Uji Signifikansi Parsial
+   - Uji Signifikansi Simultan
+   - Goodness of Fit
+   - Uji Asumsi Klasik
+      - Uji Normalitas
+      - Uji Heteroskedastisitas
+      - Uji Multikolinearitas
+3. **Seleksi Variabel**
+   - Stepwise Regression
+4. **Analisis Regresi Berganda**
+   - Uji Signifikansi Parsial
+   - Uji Signifikansi Simultan
+   - Goodness of Fit
+   - Uji Asumsi Klasik
+      - Uji Normalitas
+      - Uji Heteroskedastisitas
+      - Uji Multikolinearitas
+    
+        
 ### 🔍 Seleksi Variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (Persentase Stunting) secara individual.
