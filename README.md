@@ -2,7 +2,7 @@
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/canva%20stunting%20(1).jpg" width="800"/>
 </p>
 
-# Analisis Faktor-Faktor yang Mempengaruhi Prevalensi Stunting di Provinsi NTT Tahun 2024
+# Analisis Faktor-Faktor yang Mempengaruhi Stunting di Provinsi NTT Tahun 2024
 
 Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor yang mempengaruhi **prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024**. Penelitian ini dilakukan sebagai bagian dari tugas kelompok untuk memahami pengaruh variabel sosial, ekonomi, dan kesehatan terhadap angka stunting.
 
@@ -35,9 +35,16 @@ Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yan
 ## 📊 Metodologi Analisis
 Metode yang digunakan dalam penelitian ini meliputi:
 1. **Seleksi Variabel** – Seleksi variabel digunakan untuk memilih variabel terbaik yang benar-benar penting, relevan, dan berkontribusi signifikan dalam sebuah model suatu regresi.
-2. **Uji Multikolinearitas** – Menggunakan nilai *Variance Inflation Factor (VIF)* untuk memastikan tidak ada hubungan linear yang kuat antar variabel bebas.  
-3. **Analisis Regresi Berganda** – Mengetahui pengaruh variabel bebas terhadap prevalensi stunting (`ST`).  
-4. **Uji Asumsi Klasik** – Uji normalitas, heteroskedastisitas, dan multikolinearitas.  
+   - Uji Signifikansi Parsial
+   - Uji Signifikansi Simultan
+   - Stepwise Regression
+2. **Analisis Regresi Berganda**
+   - Uji Kelayakan Model
+   - Goodness of Fit
+   - Uji Asumsi Klasik
+      - Uji Normalitas
+      - Uji Heteroskedastisitas
+      - Uji Multikolinearitas
 
 ---
 
@@ -61,19 +68,19 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ## 📈 Variabel Penelitian
 | Kode | Keterangan | Sumber | 
 |------|------------|--------|
-| ST | Prevalensi Stunting (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ4OSMy/jumlah-balita-stunting-menurut-kabupaten-kota.html)| 
+| ST | Persentase Stunting (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ4OSMy/jumlah-balita-stunting-menurut-kabupaten-kota.html)| 
 | PM | Persentase Penduduk Miskin (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/NTg0IzI=/persentase-penduduk-miskin-menurut-kabupaten-kota.html) |  
-| BW | Berat Badan Lahir Rendah (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTU3MiMy/jumlah-dan-persentase-balita-wasting-menurut-kabupaten-kota.html) |  
-| ASL | Angka Sumber Air Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTUyNyMy/persentase-rumah-tangga-dengan-akses-sanitasi-layak.html) |  
-| AML | Angka Makan Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTc5MiMy/persentase-rumah-tangga-dengan-akses-air-minum-layak.html) |  
-| LS | Lama Sekolah (tahun) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ1OCMy/rata-rata-lamanya-sekolah-menurut-jenis-kelamin.html) |  
-| ASI | Persentase Bayi Mendapat ASI Eksklusif (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/NjE0IzI=/persentase-penduduk-umur-0-23-bulan-baduta-yang-pernah-diberi-asi-menurut-kabupaten-kota.html) |  
+| BW | Persentase Balita Wasting (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTU3MiMy/jumlah-dan-persentase-balita-wasting-menurut-kabupaten-kota.html) |  
+| ASL | Persentase Rumah Tangga dengan Akses Sanitasi Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTUyNyMy/persentase-rumah-tangga-dengan-akses-sanitasi-layak.html) |  
+| AML | Persentase Rumah Tangga dengan Akses Air Minum Layak (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTc5MiMy/persentase-rumah-tangga-dengan-akses-air-minum-layak.html) |  
+| LS | Rata-Rata Lamanya Sekolah (tahun) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/MTQ1OCMy/rata-rata-lamanya-sekolah-menurut-jenis-kelamin.html) |  
+| ASI | Persentase Penduduk yang Pernah Diberi ASI (%) | [Badan Pusat Statistik NTT (2024)](https://ntt.bps.go.id/id/statistics-table/2/NjE0IzI=/persentase-penduduk-umur-0-23-bulan-baduta-yang-pernah-diberi-asi-menurut-kabupaten-kota.html) |  
 
 ---
 ## 📉 Hasil Penelitian
-### 🔍 seleksi variabel (Variabel Selection)
+### 🔍 Seleksi Variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
-Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (ST) secara individual.
+Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (Persentase Stunting) secara individual.
 
 | Variabel | P-Value |
 |----------|---------|
@@ -84,7 +91,7 @@ Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel i
 | LS | 0,7665 |
 | ASI | 0,7300 |
 
-Hanya variabel BW (Berat Badan Lahir) dan ASL (Akses Sanitasi Layak) yang memiliki kontribusi signifikan dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
+Hanya variabel Balita Wasting dan Akses Sanitasi Layak yang memiliki kontribusi signifikan dengan taraf nyata 10% () dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
 
 #### 2. Uji Signifikansi Simultan
 Uji ini digunakan untuk menentukan apakah seluruh variabel independen secara bersama-sama berpengaruh terhadap ST.
