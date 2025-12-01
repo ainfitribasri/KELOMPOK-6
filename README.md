@@ -4,13 +4,13 @@
 
 # Analisis Faktor-Faktor yang Mempengaruhi Stunting di Provinsi NTT Tahun 2024
 
-Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor yang mempengaruhi **prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024**. Penelitian ini dilakukan sebagai bagian dari tugas kelompok untuk memahami pengaruh variabel sosial, ekonomi, dan kesehatan terhadap angka stunting.
+Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor yang mempengaruhi **persentase stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024**. Penelitian ini dilakukan sebagai bagian dari tugas kelompok untuk memahami pengaruh variabel sosial, ekonomi, dan kesehatan terhadap angka stunting.
 
 ---
 
 ## 📋 Latar Belakang
 
-Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun telah mengalami penurunan dalam satu dekade terakhir. Prevalensi stunting sendiri juga menjadi sebuah indikator kegagalan tumbuh kembang anak akibat kekurangan gizi kronis dan menjadi masalah serius yang dapat merusak potensi generasi muda dan menimbulkan kerugian jangka panjang. Menghadapi kompleksitas masalah ini, upaya penanggulangan yang efektif tidak dapat dilakukan tanpa pemahaman mendalam mengenai faktor-faktor dominan yang paling berpengaruh terhadap tingginya angka stunting di tingkat regional. Stunting didefinisikan oleh [_World Health Organization_ (WHO)](https://www.who.int/tools/child-growth-standards/standards) sebagai:
+Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, persentase stunting masih menunjukkan angka yang cukup tinggi meskipun telah mengalami penurunan dalam satu dekade terakhir. Persentase stunting sendiri juga menjadi sebuah indikator kegagalan tumbuh kembang anak akibat kekurangan gizi kronis dan menjadi masalah serius yang dapat merusak potensi generasi muda dan menimbulkan kerugian jangka panjang. Menghadapi kompleksitas masalah ini, upaya penanggulangan yang efektif tidak dapat dilakukan tanpa pemahaman mendalam mengenai faktor-faktor dominan yang paling berpengaruh terhadap tingginya angka stunting di tingkat regional. Stunting didefinisikan oleh [_World Health Organization_ (WHO)](https://www.who.int/tools/child-growth-standards/standards) sebagai:
 
 > *"Gangguan pertumbuhan dan perkembangan pada anak bayi dan balita yang ditandai dengan tinggi badannya berada di bawah standar atau pendek berdasarkan tinggi badan menurut usia yang kurang dari -2 standar deviasi (SD) pada kurva pertumbuhan yang dimiliki WHO"*
 
@@ -20,14 +20,14 @@ Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pemba
   <b>Gambar 1. Persebaran Stunting di Indonesia</b>
 </p>
 
-Secara nasional, hasil [Survei Status Gizi Indonesia (SSGI) tahun 2024](https://www.badankebijakan.kemkes.go.id/survei-status-gizi-indonesia-ssgi-2024/) mencatat bahwa prevalensi stunting telah turun menjadi 19,8%. Namun, tantangan terbesar terletak pada disparitas regional. Misalnya pada Provinsi Nusa Tenggara Timur (NTT), yang mencatat prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 27%. Angka yang jauh melampaui rata-rata nasional ini menunjukkan adanya disparitas regional yang harus segera diatasi. 
+Secara nasional, hasil [Survei Status Gizi Indonesia (SSGI) tahun 2024](https://www.badankebijakan.kemkes.go.id/survei-status-gizi-indonesia-ssgi-2024/) mencatat bahwa persentase stunting telah turun menjadi 19.8%. Namun, tantangan terbesar terletak pada disparitas regional. Misalnya pada Provinsi Nusa Tenggara Timur (NTT), yang mencatat persentase stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 27%. Angka yang jauh melampaui rata-rata nasional ini menunjukkan adanya disparitas regional yang harus segera diatasi. 
 
-Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yang jelas mengenai variabel sosial, ekonomi, dan kesehatan mana yang paling dominan dalam memicu kasus stunting di wilayah tersebut. Oleh karena itu, penelitian ini diinisiasi untuk menyediakan landasan ilmiah berbasis data, yang berfokus pada analisis faktor-faktor penyebab, guna mendukung perumusan kebijakan yang lebih terarah dan efisien. Tujuan utama penelitian ini adalah untuk mengidentifikasi faktor-faktor (variabel sosial, ekonomi, dan kesehatan) yang secara signifikan memengaruhi prevalensi stunting pada balita di Provinsi NTT tahun 2024, serta menguji seberapa besar pengaruh masing-masing faktor yang teridentifikasi tersebut terhadap prevalensi stunting menggunakan model regresi berganda. Dengan demikian, hasil analisis ini diharapkan dapat memberikan rekomendasi kebijakan yang evidence-based dan mampu mengarahkan intervensi secara tepat sasaran demi percepatan penurunan stunting di wilayah NTT.
+Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yang jelas mengenai variabel sosial, ekonomi, dan kesehatan mana yang paling dominan dalam memicu kasus stunting di wilayah tersebut. Oleh karena itu, penelitian ini diinisiasi untuk menyediakan landasan ilmiah berbasis data, yang berfokus pada analisis faktor-faktor penyebab, guna mendukung perumusan kebijakan yang lebih terarah dan efisien. Tujuan utama penelitian ini adalah untuk mengidentifikasi faktor-faktor (variabel sosial, ekonomi, dan kesehatan) yang secara signifikan memengaruhi persentase stunting pada balita di Provinsi NTT tahun 2024, serta menguji seberapa besar pengaruh masing-masing faktor yang teridentifikasi tersebut terhadap persentase stunting menggunakan model regresi berganda. Dengan demikian, hasil analisis ini diharapkan dapat memberikan rekomendasi kebijakan yang _evidence-based_ dan mampu mengarahkan intervensi secara tepat sasaran demi percepatan penurunan stunting di wilayah NTT.
 
 ---
 
 ## 🎯 Tujuan Penelitian
-1. Mengidentifikasi faktor-faktor yang memengaruhi prevalensi stunting.  
+1. Mengidentifikasi faktor-faktor yang memengaruhi persentase stunting.  
 2. Menguji seberapa besar pengaruh masing-masing faktor menggunakan model regresi berganda.
    
 ---
@@ -112,7 +112,7 @@ $$
      | LS | 0.7665 | Tidak Signifikan |
      | ASI | 0.7300 | Tidak Signifikan |
 
-    Hanya variabel Balita Wasting yang memiliki kontribusi signifikan pada tingkat signifikansi α = 0.05 dalam menjelaskan variasi variabel ST (Persentase Stunting). Variabel lain tidak memberikan kontribusi signifikan secara parsial.
+    Hanya variabel BW (Balita Wasting) yang terbukti signifikan pada tingkat signifikansi α = 0.05 dalam menjelaskan variasi variabel ST (Persentase Stunting). Sementara itu, variabel lainnya tidak menunjukkan kontribusi signifikan secara parsial terhadap model.
 
      
    - Uji Signifikansi Simultan
@@ -123,7 +123,7 @@ $$
      |-------------|---------|
      | 1.904 | 0.146 |
 
-      Karena nilai p-value > 0,05, maka secara simultan keenam variabel independen tidak memiliki pengaruh signifikan terhadap Persentase Stunting. Dengan demikian, model awal masih memuat variabel yang tidak relevan, sehingga perlu dilakukan seleksi variabel agar model menjadi lebih sederhana dan menghasilkan estimasi yang lebih baik.
+      Karena nilai p-value > 0.05, maka secara simultan keenam variabel independen tidak memiliki pengaruh signifikan terhadap Persentase Stunting. Dengan demikian, model awal masih memuat variabel yang tidak relevan, sehingga perlu dilakukan seleksi variabel agar model menjadi lebih sederhana dan menghasilkan estimasi yang lebih baik.
      
    - Goodness of Fit
 
@@ -131,7 +131,7 @@ $$
      |-----------|---------|
      | 0.4323 | 0.2052 |
 
-     Model mampu menjelaskan 43,23% variasi Persentase Stunting, sedangkan 56,77% dijelaskan oleh faktor lain. Nilai Adjusted R² yang rendah (0.2052) menunjukkan model belum baik dan masih memuat variabel yang tidak relevan.
+     Model mampu menjelaskan 43.23% variasi Persentase Stunting, sedangkan 56.77% dijelaskan oleh faktor lain. Nilai Adjusted R² yang rendah (0.2052) menunjukkan model belum baik dan masih memuat variabel yang tidak relevan.
 
 
    - Uji Asumsi Klasik
@@ -157,7 +157,7 @@ $$
         
         | Variabel | VIF |
         |----------|---------|
-        | PM | 2,8126 |
+        | PM | 2.8126 |
         | BW | 1.7116 |
         | ASL | 2.5617 |
         | AML | 2.4315 |
@@ -171,19 +171,19 @@ $$
   2. **Seleksi Variabel**
 - Stepwise Regression
 
-     Seleksi variabel lanjutan dilakukan menggunakan metode stepwise (backward) berbasis kriteria AIC. Proses backward secara bertahap mengeluarkan variabel yang tidak signifikan dan menyimpan variabel yang signifikan. Didapatkan 2 variabel yang signifikan yaitu :
+     Seleksi variabel lanjutan dilakukan menggunakan metode _stepwise regression_ dengan pendekatan _backward elimination_ berbasis kriteria AIC. Proses backward secara bertahap mengeluarkan variabel yang tidak signifikan dan menyimpan variabel yang signifikan. Didapatkan 2 variabel yang signifikan yaitu :
 
      | Variabel | P-Value | Keterangan |
      |----------|---------|------------|
-     | BW | 0,00538 | Signifikan |
-     | ASL | 0,00905 | signifikan |
+     | BW | 0.00538 | Signifikan |
+     | ASL | 0.00905 | signifikan |
 
      Pada hasil akhir menunjukkan bahwa Balita Wasting (BW) dan Akses Sanitasi Layak (ASL) adalah dua variabel yang paling berpengaruh terhadap Persentase Stunting (ST), sementara variabel lain tidak meningkatkan performa model. Berdasarkan hasil variabel signifikan diatas, maka model terbaik yang dipilih berdasarkan nilai AIC dan BIC yaitu :
 
      | Model | AIC | BIC |
      |-------|-----|-----|
-     | Model Awal (6 variabel | -50,85 | -42,12 |
-     | Model Backward (2 variabel) | -57,52 | -53,16 |
+     | Model Awal (6 variabel | -50.85 | -42.12 |
+     | Model Backward (2 variabel) | -57.52 | -53.16 |
 
      Model dengan nilai AIC dan BIC lebih rendah dianggap lebih baik.
 Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibanding model awal.
@@ -222,31 +222,31 @@ $$
      | BW | 0.005 | Signifikan|
      | ASL | 0.009 | Signifikan |
 
-     Berdasarkan hasil uji signifikansi parsial, variabel BW (p-value = 0.005) dan ASL (p-value = 0.009) berpengaruh signifikan terhadap Persentase Stunting. Hal ini berarti bahwa semakin tinggi persentase bayi dengan berat badan lahir rendah maka prevalensi stunting cenderung meningkat, sedangkan semakin tinggi akses terhadap sanitasi layak maka prevalensi stunting cenderung menurun.
+     Berdasarkan hasil uji signifikansi parsial, variabel BW dan ASL masing-masing berpengaruh signifikan terhadap Persentase Stunting. Hal ini berarti bahwa semakin tinggi persentase bayi dengan berat badan lahir rendah/balita wasting maka persentase stunting cenderung meningkat, sedangkan semakin tinggi akses terhadap sanitasi layak maka persentase stunting cenderung menurun.
 
 
    - Uji Signifikansi Simultan
 
      | F-Statistic | P-Value |
      |-------------|---------|
-     | 6,253 | 0,00819 |
+     | 6.253 | 0.00819 |
 
-     Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
+     Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap persentase stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
   
    - Goodness of Fit
      
      | R-Squared | Adj. R-Squared |
      |-------------|---------|
-     | 0,3969 | 0,3335 |
+     | 0.3969 | 0.3335 |
 
-     Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL.
+     Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi persentase stunting dapat dijelaskan oleh variabel BW dan ASL.
   
    - Uji Asumsi Klasik
       - Uji Normalitas
 
         | W | P-Value |
         |---------|---------|
-        | 0,9411 | 0,2084 |
+        | 0.9411 | 0.2084 |
 
         Uji Shapiro-Wilk terhadap residual menghasilkan _p-value_ sebesar 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
    <p align="center">
@@ -259,7 +259,7 @@ $$
       
   | Breusch-Pagan Test | P-Value |
   |--------------------|---------|
-  | 4,2378 | 0,1202 |
+  | 4.2378 | 0.1202 |
   
   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai _p-value_ 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
    <p align="center">
@@ -272,8 +272,8 @@ $$
       
   | Variabel | VIF |
   |----------|---------|
-  | BW | 1,280275 |
-  | ASL | 1,280275 |
+  | BW | 1.280275 |
+  | ASL | 1.280275 |
   
   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
@@ -281,14 +281,14 @@ $$
 ### Pembahasan
   Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Balita Wasting (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap Persentase Stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
   
-1. Pengaruh Balita Wasting (BW) terhadap Prevalensi Stunting (ST):
+1. Pengaruh Balita Wasting (BW) terhadap Persentase Stunting (ST):
    Variabel BW memiliki koefisien positif sebesar 1.55303, yang berarti setiap kenaikan 1 satuan balita wasting meningkatkan persentase stunting sebesar 1.553.
 
    Secara biologis dan epidemiologis, temuan ini sangat konsisten dengan literatur. Bayi yang lahir dengan berat badan rendah (balita wasting) memiliki resiko lebih tinggi mengalami gangguan pertumbuhan linier, karena kondisi tersebut menunjukkan bahwa malnutrisi atau masalah kesehatan sudah terjadi sejak masa kehamilan. BW juga sering menjadi indikator kualitas gizi ibu hamil dan kesehatan pralahir.
 
    Dengan demikian, peningkatan prevalensi BW di suatu wilayah dapat menjadi faktor kuat yang mendorong meningkatnya kasus stunting.
    
-2. Pengaruh Akses Sanitasi Layak (ASL) terhadap Prevalensi Stunting (ST):
+2. Pengaruh Akses Sanitasi Layak (ASL) terhadap Persentase Stunting (ST):
    Variabel ASL memiliki koefisien negatif sebesar -0.31686, yang menunjukkan bahwa setiap kenaikan 1 satuan akses sanitasi layak menurunkan persentase stunting sebesar 0.317.
 
    Akses sanitasi yang buruk berhubungan dengan tingginya resiko penyakit infeksi, terutama diare dan penyakit lingkungan lain yang menyebabkan penurunan penyerapan nutrisi. Akses sanitasi yang lebih baik berkontribusi pada lingkungan hidup yang sehat, mengurangi paparan infeksi, sehingga berdampak positif terhadap pertumbuhan anak.
@@ -306,23 +306,23 @@ $$
    
 4. Kualitas Model
    
-   Nilai _Adjusted R-squared_ sebesar 0.3335 menunjukkan bahwa sekitar 33.35% variasi prevalensi stunting antar wilayah dapat dijelaskan oleh variabel BW dan ASL. Pada penelitian sosial-kesehatan, nilai ini tergolong cukup baik, karena stunting adalah fenomena kompleks yang dipengaruhi banyak faktor (gizi, sosial ekonomi, lingkungan, kesehatan ibu, pola asuh, dll). Selain itu, model statistik untuk fenomena multidimensional jarang memiliki _R-Squared_ tinggi, sehingga hal ini tidak menjadi masalah mengingat tujuan penelitian adalah penentuan faktor yang signifikan berhubungan dengan stunting. Dengan demikian, model sudah memadai dan informatif untuk kajian epidemiologi.
+   Nilai _Adjusted R-squared_ sebesar 0.3335 menunjukkan bahwa sekitar 33.35% variasi persentase stunting antar wilayah dapat dijelaskan oleh variabel BW dan ASL. Pada penelitian sosial-kesehatan, nilai ini tergolong cukup baik, karena stunting adalah fenomena kompleks yang dipengaruhi banyak faktor (gizi, sosial ekonomi, lingkungan, kesehatan ibu, pola asuh, dll). Selain itu, model statistik untuk fenomena multidimensional jarang memiliki _R-Squared_ tinggi, sehingga hal ini tidak menjadi masalah mengingat tujuan penelitian adalah penentuan faktor yang signifikan berhubungan dengan stunting. Dengan demikian, model sudah memadai dan informatif untuk kajian epidemiologi.
 
 ---
 
 ## Kesimpulan
 
-Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NTT) pada tahun 2024 menunjukkan variasi yang tinggi antarwilayah, dengan beberapa kabupaten memiliki persentase yang jauh lebih besar. Analisis faktor-faktor yang memengaruhi stunting menunjukkan bahwa dari enam variabel yang diuji, hanya dua faktor yang memberikan pengaruh signifikan dan konsisten terhadap persentase stunting (ST), yaitu Balita Wasting (BW) dan Akses Sanitasi Layak (ASL). Model regresi terbaik yang diperoleh (ST = 0,27515 + 1,55303(BW) – 0,31686(ASL)) secara jelas mengindikasikan bahwa peningkatan proporsi balita wasting secara signifikan berasosiasi dengan peningkatan persentase stunting, sedangkan peningkatan akses sanitasi layak berhubungan dengan penurunan persentase stunting. Dengan nilai Adjusted R-squared sebesar 0,3335, model ini dianggap layak dan stabil, menyediakan gambaran informatif mengenai dua faktor utama yang mendorong sepertiga variasi stunting antarwilayah di NTT.
+Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NTT) pada tahun 2024 menunjukkan variasi yang tinggi antarwilayah, dengan beberapa kabupaten memiliki persentase yang jauh lebih besar. Analisis faktor-faktor yang memengaruhi stunting menunjukkan bahwa dari enam variabel yang diuji, hanya dua faktor yang memberikan pengaruh signifikan dan konsisten terhadap persentase stunting (ST), yaitu Balita Wasting (BW) dan Akses Sanitasi Layak (ASL). Model regresi terbaik yang diperoleh (ST = 0.27515 + 1.55303(BW) – 0.31686(ASL)) secara jelas mengindikasikan bahwa peningkatan proporsi balita wasting secara signifikan berasosiasi dengan peningkatan persentase stunting, sedangkan peningkatan akses sanitasi layak berhubungan dengan penurunan persentase stunting. Dengan nilai Adjusted R-squared sebesar 0.3335, model ini dianggap layak dan stabil, menyediakan gambaran informatif mengenai dua faktor utama yang mendorong sepertiga variasi stunting antarwilayah di NTT.
 
 ---
 
 ## Manfaat
 
-Penelitian analisis faktor-faktor yang memengaruhi prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024 ini diharapkan dapat memberikan kontribusi signifikan, baik secara praktis maupun akademis, sebagai berikut:
+Penelitian analisis faktor-faktor yang memengaruhi persentase stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024 ini diharapkan dapat memberikan kontribusi signifikan, baik secara praktis maupun akademis, sebagai berikut:
 
 ### A. Manfaat Praktis Bagi Pemerintah
 1. **Dasar Prioritas Intervensi**
-   Menyediakan bukti empiris mengenai dua faktor determinan utama (Berat Badan Lahir Rendah/Wasting dan Akses Sanitasi Layak) yang harus diprioritaskan dalam program percepatan penurunan stunting di NTT.
+   Menyediakan bukti empiris mengenai dua faktor determinan utama (Balita Wasting dan Akses Sanitasi Layak) yang harus diprioritaskan dalam program percepatan penurunan stunting di NTT.
 2. **Efisiensi Alokasi Sumber Daya**
    Membantu Pemerintah Daerah dalam mengalokasikan anggaran dan sumber daya secara lebih efisien dan tepat sasaran ke variabel yang terbukti signifikan, bukan pada variabel yang pengaruhnya minor.
 4. **Pemetaan Wilayah Risiko Tinggi**
