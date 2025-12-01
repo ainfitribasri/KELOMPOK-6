@@ -10,16 +10,19 @@ Repository ini berisi data dan skrip analisis penelitian mengenai faktor-faktor 
 
 ## 📋 Latar Belakang
 
-Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun mengalami penurunan dalam satu dekade terakhir. _World Health Organization_ (WHO) mendefinisikan stunting sebagai:
+Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pembangunan sosial dan ekonomi suatu bangsa. Di Indonesia, prevalensi stunting masih menunjukkan angka yang cukup tinggi meskipun mengalami penurunan dalam satu dekade terakhir. Prevalensi stunting sendiri juga menjadi sebuah indikator kegagalan tumbuh kembang akibat kurang gizi kronis dan menjadi masalah serius yang dapat merusak potensi generasi muda dan menimbulkan kerugian jangka panjang. Menghadapi kompleksitas masalah ini, upaya penanggulangan yang efektif tidak dapat dilakukan tanpa pemahaman mendalam mengenai faktor-faktor dominan yang paling berpengaruh terhadap tingginya angka stunting di tingkat regional. Stunting didefinisikan oleh [_World Health Organization_ (WHO)](https://www.who.int/tools/child-growth-standards/standards) sebagai:
+
+> *"Gangguan pertumbuhan dan perkembangan pada anak bayi dan balita yang ditandai dengan tinggi badannya berada di bawah standar atau pendek berdasarkan tinggi badan menurut usia yang kurang dari -2 standar deviasi (SD) pada kurva pertumbuhan yang dimiliki WHO"*
+
 <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Maps%20Stunting%20Indonesia%202024.jpg" width="900"/>
   <br>
   <b>Gambar 1. Persebaran Stunting di Indonesia</b>
 </p>
 
-> *"Gangguan pertumbuhan dan perkembangan pada anak bayi dan balita yang ditandai dengan tinggi badannya berada di bawah standar atau pendek berdasarkan tinggi badan menurut usia yang kurang dari -2 standar deviasi (SD) pada kurva pertumbuhan yang dimiliki WHO"*
+Secara nasional, hasil [Survei Status Gizi Indonesia (SSGI) tahun 2024](https://www.badankebijakan.kemkes.go.id/survei-status-gizi-indonesia-ssgi-2024/) mencatat bahwa prevalensi stunting telah turun menjadi 19,8%. Namun, tantangan terbesar terletak pada disparitas regional. Misalnya pada Provinsi Nusa Tenggara Timur (NTT), yang mencatat prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 37,6%. Angka yang jauh melampaui rata-rata nasional ini menunjukkan adanya disparitas regional yang harus segera diatasi. 
 
-Hasil Survei Status Gizi Indonesia (SSGI) pada tahun 2024 menunjukkan bahwa provinsi Nusa Tenggara Timur (NTT) memiliki prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 37%, meskipun prevalensi stunting nasional turun menjadi 19,8% dari 37,6% pada tahun 2013.
+Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yang jelas mengenai variabel sosial, ekonomi, dan kesehatan mana yang paling dominan dalam memicu kasus stunting di wilayah tersebut. Oleh karena itu, penelitian ini diinisiasi untuk menyediakan landasan ilmiah berbasis data, yang berfokus pada analisis faktor-faktor penyebab, guna mendukung perumusan kebijakan yang lebih terarah dan efisien. Tujuan utama penelitian ini adalah untuk mengidentifikasi faktor-faktor (variabel sosial, ekonomi, dan kesehatan) yang secara signifikan memengaruhi prevalensi stunting pada balita di Provinsi NTT tahun 2024, serta menguji seberapa besar pengaruh masing-masing faktor yang teridentifikasi tersebut terhadap prevalensi stunting menggunakan model regresi berganda. Dengan demikian, hasil analisis ini diharapkan dapat memberikan rekomendasi kebijakan yang evidence-based dan mampu mengarahkan intervensi secara tepat sasaran demi percepatan penurunan stunting di wilayah NTT.
 
 ---
 
