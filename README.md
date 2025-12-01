@@ -59,6 +59,10 @@ Metode yang digunakan dalam penelitian ini meliputi:
 
 <table>
   <tr align="center">
+     <td width="150">
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/kemenkes.png"><br>
+      <b>Kementrian Kesehatan</b>
+    </td>
     <td width="150">
       <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/bps.png"><br>
       <b>Badan Pusat Statistik</b>
