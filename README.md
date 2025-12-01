@@ -271,6 +271,19 @@ Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan
     </td>
   </tr>
 </table>
+<table>
+  <tr align="center">
+    <td>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/10.gif" width="120px"><br>
+    </td>
+    <td>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/11.gif" width="120px"><br>
+    </td>
+    <td>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/9.gif" width="120px"><br>
+    </td>
+  </tr>
+</table>
 
 ---
 > ✨ *“Anak sehat hari ini, generasi tangguh masa depan.”*
