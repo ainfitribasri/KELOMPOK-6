@@ -330,7 +330,7 @@ Penelitian analisis faktor-faktor yang memengaruhi prevalensi stunting pada bali
 2. **Kerangka Analisis Data**
    Menyediakan kerangka analisis statistik (model regresi berganda) yang tervalidasi dan dapat dijadikan rujukan bagi studi lanjutan atau pengembangan model prediksi risiko stunting di masa mendatang.
 4. **Akurasi Variabel Kunci**
-   Menegaskan pentingnya faktor gizi awal kehidupan (BW) dan faktor lingkungan atau sanitasi (ASL sebagai komponen kunci yang harus selalu diperhitungkan dalam model kebijakan.
+   Menegaskan pentingnya faktor gizi awal kehidupan (BW) dan faktor lingkungan atau sanitasi (ASL) sebagai komponen kunci yang harus selalu diperhitungkan dalam model kebijakan.
    
 ---
 
