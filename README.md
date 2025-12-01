@@ -160,7 +160,7 @@ $$
         | LS | 1.9817 |
         | ASI | 1.4695 |
 
-        Seluruh nilai VIF < 10, artinya tidak terdapat multikolinearitas antarvariabel independen.
+        Seluruh nilai VIF < 10, artinya tidak terdapat multikolinearitas yang dapat mempengaruhi model.
 
      
 
@@ -273,79 +273,19 @@ $$
   
   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
-    
-### 🔢 Hasil Analisis Regresi Berganda
-Model regresi berganda yang terbentuk adalah sebagai berikut:
-
-$$
-ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
-$$
-
-| Variabel | Koefisien | P-Value | Interpretasi |
-|-----------|----------|---------|--------------|
-| BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
-| ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
-
-#### Uji Kelayakan Model
-
-| F-Statistic | P-Value |
-|-------------|---------|
-| 6,253 | 0,00819 |
-
-  Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
-
-#### Goodness of Fit
-
-| R-Squared | Adj. R-Squared |
-|-------------|---------|
-| 0,3969 | 0,3335 |
-  
-  Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL.
-  
-  Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
-  
-#### Uji Asumsi Klasik
-1. Uji Normalitas:
-
-| W | P-Value |
-|---------|---------|
-| 0,9411 | 0,2084 |
-
-   Uji Shapiro-Wilk terhadap residual menghasilkan _p-value_ sebesar 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
-   <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="50%"/>
-</p>
-2. Uji Heteroskedastisitas:
-
-| Breusch-Pagan Test | P-Value |
-|--------------------|---------|
-| 4,2378 | 0,1202 |
-
-   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai _p-value_ 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
-   <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="50%"/>
-</p>
-3. Uji Multikolinearitas:
-
-| Variabel | VIF |
-|----------|---------|
-| BW | 1,280275 |
-| ASL | 1,280275 |
-
-   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
 ### Pembahasan
-  Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap prevalensi stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
+  Hasil analisis menunjukkan bahwa dari enam variabel kandidat, hanya Balita Wasting (BW) dan Akses Sanitasi Layak (ASL) yang memiliki pengaruh signifikan terhadap Persentase Stunting (ST). Kedua variabel tersebut tetap bertahan setelah proses _backward stepwise regression_, serta memberikan model dengan nilai AIC dan BIC yang lebih rendah dibanding model awal.
   
-1. Pengaruh Berat Badan Lahir Rendah (BW) terhadap Prevalensi Stunting (ST):
-   Variabel BW memiliki koefisien positif sebesar 1.55303, yang berarti semakin tinggi proporsi bayi dengan berat badan lahir rendah disuatu wilayah, maka semakin tinggi pula prevalensi stunting di wilayah tersebut.
+1. Pengaruh Balita Wasting (BW) terhadap Prevalensi Stunting (ST):
+   Variabel BW memiliki koefisien positif sebesar 1.55303, yang berarti setiap kenaikan 1 satuan balita wasting meningkatkan persentase stunting sebesar 1.553.
 
-   Secara biologis dan epidemiologis, temuan ini sangat konsisten dengan literatur. Bayi yang lahir dengan berat badan rendah memiliki resiko lebih tinggi mengalami gangguan pertumbuhan linier, karena kondisi tersebut menunjukkan bahwa malnutrisi atau masalah kesehatan sudah terjadi sejak masa kehamilan. BW juga sering menjadi indikator kualitas gizi ibu hamil dan kesehatan pralahir.
+   Secara biologis dan epidemiologis, temuan ini sangat konsisten dengan literatur. Bayi yang lahir dengan berat badan rendah (balita wasting) memiliki resiko lebih tinggi mengalami gangguan pertumbuhan linier, karena kondisi tersebut menunjukkan bahwa malnutrisi atau masalah kesehatan sudah terjadi sejak masa kehamilan. BW juga sering menjadi indikator kualitas gizi ibu hamil dan kesehatan pralahir.
 
    Dengan demikian, peningkatan prevalensi BW di suatu wilayah dapat menjadi faktor kuat yang mendorong meningkatnya kasus stunting.
    
 2. Pengaruh Akses Sanitasi Layak (ASL) terhadap Prevalensi Stunting (ST):
-   Variabel ASL memiliki koefisien negatif sebesar -0.31686, yang menunjukkan bahwa semakin tinggi presentase rumah tangga dengan akses sanitasi layak, maka semakin rendah prevalensi stunting.
+   Variabel ASL memiliki koefisien negatif sebesar -0.31686, yang menunjukkan bahwa setiap kenaikan 1 satuan akses sanitasi layak menurunkan persentase stunting sebesar 0.317.
 
    Akses sanitasi yang buruk berhubungan dengan tingginya resiko penyakit infeksi, terutama diare dan penyakit lingkungan lain yang menyebabkan penurunan penyerapan nutrisi. Akses sanitasi yang lebih baik berkontribusi pada lingkungan hidup yang sehat, mengurangi paparan infeksi, sehingga berdampak positif terhadap pertumbuhan anak.
 
@@ -358,7 +298,7 @@ ST = 0.27515 + 1.55303(BW) - 0.31686(ASL)
 $$
   
 
-   Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada tingkat α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
+   Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada taraf nyata α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
    
 4. Kualitas Model
    
@@ -368,7 +308,7 @@ $$
 
 ## Kesimpulan
 
-Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NTT) pada tahun 2024 menunjukkan variasi yang tinggi antarwilayah, dengan beberapa kabupaten memiliki prevalensi yang jauh lebih besar. Analisis faktor-faktor yang memengaruhi stunting menunjukkan bahwa dari enam variabel yang diuji, hanya dua faktor yang memberikan pengaruh signifikan dan konsisten terhadap prevalensi stunting (ST), yaitu Berat Badan Lahir Rendah / Balita Wasting (BW) dan Akses Sanitasi Layak (ASL). Model regresi terbaik yang diperoleh (ST = 0,27515 + 1,55303(BW) – 0,31686(ASL)) secara jelas mengindikasikan bahwa peningkatan proporsi balita wasting secara signifikan berasosiasi dengan peningkatan prevalensi stunting, sedangkan peningkatan akses sanitasi layak berhubungan dengan penurunan prevalensi stunting. Dengan nilai Adjusted R-squared sebesar 0,3335, model ini dianggap layak dan stabil, menyediakan gambaran informatif mengenai dua faktor utama yang mendorong sepertiga variasi stunting antarwilayah di NTT.
+Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NTT) pada tahun 2024 menunjukkan variasi yang tinggi antarwilayah, dengan beberapa kabupaten memiliki persentase yang jauh lebih besar. Analisis faktor-faktor yang memengaruhi stunting menunjukkan bahwa dari enam variabel yang diuji, hanya dua faktor yang memberikan pengaruh signifikan dan konsisten terhadap persentase stunting (ST), yaitu Balita Wasting (BW) dan Akses Sanitasi Layak (ASL). Model regresi terbaik yang diperoleh (ST = 0,27515 + 1,55303(BW) – 0,31686(ASL)) secara jelas mengindikasikan bahwa peningkatan proporsi balita wasting secara signifikan berasosiasi dengan peningkatan persentase stunting, sedangkan peningkatan akses sanitasi layak berhubungan dengan penurunan persentase stunting. Dengan nilai Adjusted R-squared sebesar 0,3335, model ini dianggap layak dan stabil, menyediakan gambaran informatif mengenai dua faktor utama yang mendorong sepertiga variasi stunting antarwilayah di NTT.
 
 ---
 
