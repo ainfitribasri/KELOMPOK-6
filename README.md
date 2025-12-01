@@ -87,6 +87,8 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ## 📉 Hasil Penelitian
 
 1. **Model Awal dengan Seluruh Variabel**
+
+   Model regresi berganda yang terbentuk adalah sebagai berikut:
    
 $$
 ST = 0.1997 + 0.3303(PM) + 1.6608(BW) - 0.3032(ASL) + 0.1157 (AML) + 0.5797(LS) - 0.1650(ASI) 
@@ -125,6 +127,9 @@ $$
      |-----------|---------|
      | 0.4323 | 0.2052 |
 
+     Model mampu menjelaskan 43,23% variasi Persentase Stunting, sedangkan 56,77% dijelaskan oleh faktor lain. Nilai Adjusted R² yang rendah (0.2052) menunjukkan model belum baik dan masih memuat variabel yang tidak relevan.
+
+
    - Uji Asumsi Klasik
       - Uji Normalitas
         
@@ -132,11 +137,17 @@ $$
         |---------|--------|
         | 0.94629 | 0.2661 |
 
+        Nilai p-value > 0.05 menunjukkan residual berdistribusi normal, sehingga asumsi normalitas terpenuhi.
+
+
       - Uji Heteroskedastisitas
         
         | Breusch-Pagan Test | P-Value |
         |--------------------|---------|
         | 8.488 | 0.2044 |
+
+        Nilai p-value > 0.05 berarti tidak terjadi heteroskedastisitas, atau varians residual bersifat konstan.
+
         
       - Uji Multikolinearitas
         
@@ -148,6 +159,9 @@ $$
         | AML | 2.4315 |
         | LS | 1.9817 |
         | ASI | 1.4695 |
+
+        Seluruh nilai VIF < 10, artinya tidak terdapat multikolinearitas antarvariabel independen.
+
      
 
   2. **Seleksi Variabel**
@@ -190,6 +204,7 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 </p>
 
 3. **Analisis Regresi Berganda**
+
    Model regresi berganda yang terbentuk adalah sebagai berikut:
 
 $$
@@ -202,6 +217,8 @@ $$
      |----------|---------|--------------|
      | BW | 0.005 | Signifikan|
      | ASL | 0.009 | Signifikan |
+
+     
 
    - Uji Signifikansi Simultan
 
