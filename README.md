@@ -240,7 +240,13 @@ Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NT
 
 ## Manfaat
 
-Penelitian ini memberikan manfaat penting bagi upaya penanggulangan stunting di Provinsi Nusa Tenggara Timur. Temuan mengenai variasi prevalensi antarwilayah dan identifikasi faktor signifikan seperti wasting (BW) dan akses sanitasi layak (ASL) menjadi dasar yang kuat bagi pemerintah daerah dalam menentukan prioritas intervensi di wilayah yang berisiko tinggi. Selain itu, variabel-variabel signifikan tersebut dapat digunakan sebagai indikator kunci dalam pemantauan dan evaluasi program penurunan stunting, sehingga kebijakan yang diambil dapat lebih terarah dan berbasis bukti. Dari sisi teknis, penelitian ini menyediakan kerangka analisis statistik yang dapat dijadikan rujukan bagi studi lanjutan maupun pengembangan model prediksi risiko stunting di masa mendatang. Hasil penelitian ini juga memberikan kontribusi terhadap penguatan kajian kesehatan masyarakat, karena menegaskan pentingnya perbaikan gizi awal kehidupan dan sanitasi lingkungan sebagai komponen utama dalam intervensi multidimensi penurunan stunting. Dengan demikian, penelitian ini tidak hanya memberikan pemahaman empiris, tetapi juga mendukung perumusan kebijakan dan strategi pembangunan kesehatan yang lebih efektif dan berkelanjutan.
+Penelitian analisis faktor-faktor yang memengaruhi prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024 ini diharapkan dapat memberikan kontribusi signifikan, baik secara praktis maupun akademis, sebagai berikut:
+
+### A. Manfaat Praktis Bagi Pemerintah
+Secara praktis, penelitian ini memberikan kontribusi langsung bagi Pemerintah Daerah sebagai pengambil kebijakan. Hasil analisis dapat dijadikan dasar prioritas intervensi karena menyediakan bukti empiris mengenai dua faktor determinan utama stunting di NTT (Berat Badan Lahir Rendah/Wasting dan Akses Sanitasi Layak). Dengan demikian, penelitian ini membantu dalam efisiensi alokasi sumber daya dan anggaran agar dapat difokuskan secara tepat sasaran. Selain itu, temuan ini sangat berguna untuk pemetaan wilayah risiko tinggi, sehingga program intervensi dapat lebih terarah di tingkat kabupaten/kota yang memiliki beban stunting kronis paling tinggi.
+
+### B. Manfaat Akademis untuk Pengembangan Ilmu Pengetahuan
+Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan kajian epidemiologi dengan memperkaya studi mengenai faktor risiko multidimensi stunting, khususnya di wilayah Indonesia Timur. Penelitian ini juga menyediakan model analisis data yaitu persamaan model regresi yang teruji yang dapat dijadikan rujukan bagi studi lanjutan atau pengembangan model prediksi risiko stunting di masa mendatang. Akhirnya, hasil penelitian ini menegaskan akurasi variabel kunci, yaitu pentingnya faktor gizi awal kehidupan dan faktor lingkungan/sanitasi, yang harus selalu diperhitungkan dalam perumusan model kebijakan.
 
 ---
 
