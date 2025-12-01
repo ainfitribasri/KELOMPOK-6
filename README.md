@@ -316,12 +316,22 @@ Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NT
 
 Penelitian analisis faktor-faktor yang memengaruhi prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024 ini diharapkan dapat memberikan kontribusi signifikan, baik secara praktis maupun akademis, sebagai berikut:
 
-### 1. Manfaat Praktis Bagi Pemerintah
-Secara praktis, penelitian ini memberikan kontribusi langsung bagi Pemerintah Daerah sebagai pengambil kebijakan. Hasil analisis dapat dijadikan dasar prioritas intervensi karena menyediakan bukti empiris mengenai dua faktor determinan utama stunting di NTT (Berat Badan Lahir Rendah/Wasting dan Akses Sanitasi Layak). Dengan demikian, penelitian ini membantu dalam efisiensi alokasi sumber daya dan anggaran agar dapat difokuskan secara tepat sasaran. Selain itu, temuan ini sangat berguna untuk pemetaan wilayah risiko tinggi, sehingga program intervensi dapat lebih terarah di tingkat kabupaten/kota yang memiliki beban stunting kronis paling tinggi.
+### A. Manfaat Praktis Bagi Pemerintah
+1. **Dasar Prioritas Intervensi**
+   Menyediakan bukti empiris mengenai dua faktor determinan utama (Berat Badan Lahir Rendah/Wasting dan Akses Sanitasi Layak) yang harus diprioritaskan dalam program percepatan penurunan stunting di NTT.
+2. **Efisiensi Alokasi Sumber Daya**
+   Membantu Pemerintah Daerah dalam mengalokasikan anggaran dan sumber daya secara lebih efisien dan tepat sasaran ke variabel yang terbukti signifikan, bukan pada variabel yang pengaruhnya minor.
+4. **Pemetaan Wilayah Risiko Tinggi**
+   Menjadi dasar untuk memetakan dan menentukan wilayah intervensi prioritas di tingkat kabupaten/kota yang memiliki beban stunting paling tinggi.
 
 ### 2. Manfaat Akademis untuk Pengembangan Ilmu Pengetahuan
-Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan kajian epidemiologi dengan memperkaya studi mengenai faktor risiko multidimensi stunting, khususnya di wilayah Indonesia Timur. Penelitian ini juga menyediakan model analisis data yaitu persamaan model regresi yang teruji yang dapat dijadikan rujukan bagi studi lanjutan atau pengembangan model prediksi risiko stunting di masa mendatang. Akhirnya, hasil penelitian ini menegaskan akurasi variabel kunci, yaitu pentingnya faktor gizi awal kehidupan dan faktor lingkungan/sanitasi, yang harus selalu diperhitungkan dalam perumusan model kebijakan.
-
+1. **Penguatan Kajian Epidemiologi**
+   Memberikan kontribusi nyata terhadap ilmu kesehatan masyarakat, khususnya dalam memperkuat kajian mengenai faktor risiko multidimensi stunting di wilayah Indonesia Timur.
+2. **Kerangka Analisis Data**
+   Menyediakan kerangka analisis statistik (model regresi berganda) yang tervalidasi dan dapat dijadikan rujukan bagi studi lanjutan atau pengembangan model prediksi risiko stunting di masa mendatang.
+4. **Akurasi Variabel Kunci**
+   Menegaskan pentingnya faktor gizi awal kehidupan (BW) dan faktor lingkungan atau sanitasi (ASL sebagai komponen kunci yang harus selalu diperhitungkan dalam model kebijakan.
+   
 ---
 
 ## 🪄 _The Designer_: Kelompok 6 💅
