@@ -20,7 +20,7 @@ Kesehatan dan pertumbuhan anak merupakan indikator utama dari keberhasilan pemba
   <b>Gambar 1. Persebaran Stunting di Indonesia</b>
 </p>
 
-Secara nasional, hasil [Survei Status Gizi Indonesia (SSGI) tahun 2024](https://www.badankebijakan.kemkes.go.id/survei-status-gizi-indonesia-ssgi-2024/) mencatat bahwa prevalensi stunting telah turun menjadi 19,8%. Namun, tantangan terbesar terletak pada disparitas regional. Misalnya pada Provinsi Nusa Tenggara Timur (NTT), yang mencatat prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 37,6%. Angka yang jauh melampaui rata-rata nasional ini menunjukkan adanya disparitas regional yang harus segera diatasi. 
+Secara nasional, hasil [Survei Status Gizi Indonesia (SSGI) tahun 2024](https://www.badankebijakan.kemkes.go.id/survei-status-gizi-indonesia-ssgi-2024/) mencatat bahwa prevalensi stunting telah turun menjadi 19,8%. Namun, tantangan terbesar terletak pada disparitas regional. Misalnya pada Provinsi Nusa Tenggara Timur (NTT), yang mencatat prevalensi stunting tertinggi ke-2 di Indonesia setelah Papua Pegunungan, yakni sebesar 27%. Angka yang jauh melampaui rata-rata nasional ini menunjukkan adanya disparitas regional yang harus segera diatasi. 
 
 Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yang jelas mengenai variabel sosial, ekonomi, dan kesehatan mana yang paling dominan dalam memicu kasus stunting di wilayah tersebut. Oleh karena itu, penelitian ini diinisiasi untuk menyediakan landasan ilmiah berbasis data, yang berfokus pada analisis faktor-faktor penyebab, guna mendukung perumusan kebijakan yang lebih terarah dan efisien. Tujuan utama penelitian ini adalah untuk mengidentifikasi faktor-faktor (variabel sosial, ekonomi, dan kesehatan) yang secara signifikan memengaruhi prevalensi stunting pada balita di Provinsi NTT tahun 2024, serta menguji seberapa besar pengaruh masing-masing faktor yang teridentifikasi tersebut terhadap prevalensi stunting menggunakan model regresi berganda. Dengan demikian, hasil analisis ini diharapkan dapat memberikan rekomendasi kebijakan yang evidence-based dan mampu mengarahkan intervensi secara tepat sasaran demi percepatan penurunan stunting di wilayah NTT.
 
@@ -108,7 +108,7 @@ $$
      | LS | 0.7665 | Tidak Signifikan |
      | ASI | 0.7300 | Tidak Signifikan |
 
-    Hanya variabel Balita Wasting yang memiliki kontribusi signifikan pada tingkat signifikansi α = 0.05 dalam menjelaskan variasi variabel ST (Stunting). Variabel lain tidak memberikan kontribusi signifikan secara parsial.
+    Hanya variabel Balita Wasting yang memiliki kontribusi signifikan pada tingkat signifikansi α = 0.05 dalam menjelaskan variasi variabel ST (Persentase Stunting). Variabel lain tidak memberikan kontribusi signifikan secara parsial.
 
      
    - Uji Signifikansi Simultan
@@ -218,7 +218,8 @@ $$
      | BW | 0.005 | Signifikan|
      | ASL | 0.009 | Signifikan |
 
-     
+     Berdasarkan hasil uji signifikansi parsial, variabel BW (p-value = 0.005) dan ASL (p-value = 0.009) berpengaruh signifikan terhadap Persentase Stunting. Hal ini berarti bahwa semakin tinggi persentase bayi dengan berat badan lahir rendah maka prevalensi stunting cenderung meningkat, sedangkan semakin tinggi akses terhadap sanitasi layak maka prevalensi stunting cenderung menurun.
+
 
    - Uji Signifikansi Simultan
 
@@ -235,8 +236,6 @@ $$
      | 0,3969 | 0,3335 |
 
      Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL.
-
-     Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
   
    - Uji Asumsi Klasik
       - Uji Normalitas
@@ -249,6 +248,7 @@ $$
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="50%"/>
 </p>
+
 
       - Uji Heteroskedastisitas
       
@@ -453,25 +453,6 @@ Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan
 
 ## 🪄 _The Designer_: Kelompok 6 💅
 
-<table>
-  <tr align="center">
-    <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Latar%20Putih_Husnul%20Amira%20(1)%20(2).jpg" width="120px"><br>
-      <b>Husnul Amira</b><br>
-      M0501251059
-    </td>
-    <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/2025-11-24-16-14-12-817.jpg" width="120px"><br>
-      <b>Fatiya Hanifah</b><br>
-      M0501251053
-    </td>
-    <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/ain.png" width="120px"><br>
-      <b>Ain Fitri Basri</b><br>
-      M0501251051
-    </td>
-  </tr>
-</table>
 <table>
   <tr align="center">
     <td>
