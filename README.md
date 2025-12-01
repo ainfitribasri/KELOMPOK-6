@@ -239,7 +239,7 @@ $$
   
    - Uji Asumsi Klasik
       - Uji Normalitas
-        
+
         | W | P-Value |
         |---------|---------|
         | 0,9411 | 0,2084 |
@@ -247,10 +247,11 @@ $$
         Uji Shapiro-Wilk terhadap residual menghasilkan _p-value_ sebesar 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="50%"/>
+  <br>
+  <b>Gambar 5. QQ Plot Residual Model</b>
 </p>
 
-
-      - Uji Heteroskedastisitas
+- Uji Heteroskedastisitas
       
   | Breusch-Pagan Test | P-Value |
   |--------------------|---------|
@@ -259,9 +260,12 @@ $$
   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai _p-value_ 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="50%"/>
+  <br>
+  <b>Gambar 6. Residual vs Fitted Plot</b>
 </p>
-      - Uji Multikolinearitas
-    
+      
+- Uji Multikolinearitas
+      
   | Variabel | VIF |
   |----------|---------|
   | BW | 1,280275 |
@@ -269,78 +273,7 @@ $$
   
   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
 
-
-
     
-### 🔍 Seleksi Variabel (Variabel Selection)
-#### 1. Uji Signifikansi Parsial
-Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (Persentase Stunting) secara individual.
-
-| Variabel | P-Value |
-|----------|---------|
-| PM | 0,3649 |
-| BW | 0,0178 |
-| ASL | 0,0919 |
-| AML | 0,6090 |
-| LS | 0,7665 |
-| ASI | 0,7300 |
-
-Hanya variabel Balita Wasting dan Akses Sanitasi Layak yang memiliki kontribusi signifikan dengan taraf nyata 10% () dalam menjelaskan variasi variabel ST (Stunting) pada tingkat signifikansi tertentu. Variabel lain tidak memberikan kontribusi signifikan secara parsial.
-
-#### 2. Uji Signifikansi Simultan
-Uji ini digunakan untuk menentukan apakah seluruh variabel independen secara bersama-sama berpengaruh terhadap ST.
-
-| F-Statistic | P-Value |
-|-------------|---------|
-| 1,904 | 0,146 |
-
-Karena p-value > 0.05, maka secara simultan keenam variabel tidak memiliki pengaruh signifikan secara bersama-sama terhadap ST. Ini berarti model awal masih memiliki variabel yang tidak perlu, sehingga harus dilakukan seleksi variabel agar model lebih sederhana dan lebih baik.
-
-#### 3. Stepwise Regression
-Seleksi variabel lanjutan dilakukan menggunakan metode stepwise (backward) berbasis kriteria AIC. Proses backward secara bertahap mengeluarkan variabel yang tidak signifikan dan menyimpan variabel yang signifikan. didapatkan 2 variabel yang signifikan yaitu :
-
-| Variabel | P-Value | Keterangan |
-|----------|---------|------------|
-| BW | 0,00538 | Signifikan |
-| ASL | 0,00905 | signifikan |
-
-pada hasil akhir menunjukkan bahwa BW dan ASL adalah dua variabel yang paling berpengaruh terhadap tingkat stunting, sementara variabel lain tidak meningkatkan performa model. berdasarkan hasil variabel signifikan diatas, maka model terbaik yang dipilih berdasarkan nilai AIC dan BIC yaitu :
-
-| Model | AIC | BIC |
-|-------|-----|-----|
-| Model Awal (6 variabel | -50,85 | -42,12 |
-| Model Backward (2 variabel) | -57,52 | -53,16 |
-
-Model dengan nilai AIC dan BIC lebih rendah dianggap lebih baik.
-Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibanding model awal.
-
-### Model Regresi Akhir
-  Berdasarkan prosedur _backward stepwise regression_ yang memilih model dengan nilai AIC paling rendah, diperoleh bahwa terdapat dua variabel prediktor yang tetap signifikan dalam menjelaskan variabel prevalensi stunting (ST), yaitu Berat Badan Lahir Rendah (BW) dan Akses Sanitasi Layak (ASL).
- | Model | 
- |-------|
- | ST = 0.27515 + 1.55303(BW) − 0.31686(ASL) |
- 
-  Kedua variabel signifikan pada tingkat signifikansi α = 0.05 (p < 0.01), sehingga dapat disimpulkan bahwa BW dan ASL berkontribusi secara bermakna dalam menjelaskan variasi prevalensi stunting antar wilayah di provinsi NTT.
-
-#### Visualisasi Variabel Terpilih
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="500"/>
-  <br>
-  <b>Gambar 2. Persebaran stunting di Nusa Tenggara Timur</b>
-</p>
-
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="500"/>
-  <br>
-  <b>Gambar 3. Persebaran Balita Wasting di Nusa Tenggara Timur</b>
-</p>
-
-<p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="500"/>
-  <br>
-  <b>Gambar 4. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
-</p>
-
 ### 🔢 Hasil Analisis Regresi Berganda
 Model regresi berganda yang terbentuk adalah sebagai berikut:
 
