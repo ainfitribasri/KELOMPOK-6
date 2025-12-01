@@ -296,9 +296,9 @@ $$
 $$
 ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
 $$
-  
 
-   Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada taraf nyata α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
+
+  Hasil menunjukkan bahwa kedua variabel tersebut signifikan pada taraf nyata α = 0.05 (p < 0.01). Selain itu, pengujian klasik model (normalitas residual, heteroskedastisitas dan multikolinearitas) semuanya terpenuhi. Tidak ditemukan pelanggaran asumsi, sehingga model dapat dianggap tidak bias, konsisten, dan efisien.
    
 4. Kualitas Model
    
