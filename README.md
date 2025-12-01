@@ -34,12 +34,19 @@ Untuk mengatasi tingginya beban stunting kronis di NTT, diperlukan pemahaman yan
 
 ## 📊 Metodologi Analisis
 Metode yang digunakan dalam penelitian ini meliputi:
-1. **Seleksi Variabel** – Seleksi variabel digunakan untuk memilih variabel terbaik yang benar-benar penting, relevan, dan berkontribusi signifikan dalam sebuah model suatu regresi.
+1. **Model Awal dengan Seluruh Variabel**
    - Uji Signifikansi Parsial
    - Uji Signifikansi Simultan
+   - Goodness of Fit
+   - Uji Asumsi Klasik
+      - Uji Normalitas
+      - Uji Heteroskedastisitas
+      - Uji Multikolinearitas
+2. **Seleksi Variabel**
    - Stepwise Regression
-2. **Analisis Regresi Berganda**
-   - Uji Kelayakan Model
+3. **Analisis Regresi Berganda**
+   - Uji Signifikansi Parsial
+   - Uji Signifikansi Simultan
    - Goodness of Fit
    - Uji Asumsi Klasik
       - Uji Normalitas
