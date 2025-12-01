@@ -242,15 +242,15 @@ Berdasarkan hasil analisis, kondisi stunting di Provinsi Nusa Tenggara Timur (NT
 
 Penelitian analisis faktor-faktor yang memengaruhi prevalensi stunting pada balita di Provinsi Nusa Tenggara Timur tahun 2024 ini diharapkan dapat memberikan kontribusi signifikan, baik secara praktis maupun akademis, sebagai berikut:
 
-### A. Manfaat Praktis Bagi Pemerintah
+### 1. Manfaat Praktis Bagi Pemerintah
 Secara praktis, penelitian ini memberikan kontribusi langsung bagi Pemerintah Daerah sebagai pengambil kebijakan. Hasil analisis dapat dijadikan dasar prioritas intervensi karena menyediakan bukti empiris mengenai dua faktor determinan utama stunting di NTT (Berat Badan Lahir Rendah/Wasting dan Akses Sanitasi Layak). Dengan demikian, penelitian ini membantu dalam efisiensi alokasi sumber daya dan anggaran agar dapat difokuskan secara tepat sasaran. Selain itu, temuan ini sangat berguna untuk pemetaan wilayah risiko tinggi, sehingga program intervensi dapat lebih terarah di tingkat kabupaten/kota yang memiliki beban stunting kronis paling tinggi.
 
-### B. Manfaat Akademis untuk Pengembangan Ilmu Pengetahuan
+### 2. Manfaat Akademis untuk Pengembangan Ilmu Pengetahuan
 Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan kajian epidemiologi dengan memperkaya studi mengenai faktor risiko multidimensi stunting, khususnya di wilayah Indonesia Timur. Penelitian ini juga menyediakan model analisis data yaitu persamaan model regresi yang teruji yang dapat dijadikan rujukan bagi studi lanjutan atau pengembangan model prediksi risiko stunting di masa mendatang. Akhirnya, hasil penelitian ini menegaskan akurasi variabel kunci, yaitu pentingnya faktor gizi awal kehidupan dan faktor lingkungan/sanitasi, yang harus selalu diperhitungkan dalam perumusan model kebijakan.
 
 ---
 
-## 🪄 Tim Penyusun: Kelompok 6
+## 🪄 _The Designer_: Kelompok 6 💅
 
 <table>
   <tr align="center">
@@ -274,13 +274,13 @@ Dari sisi akademis, penelitian ini memberikan kontribusi penting dalam penguatan
 <table>
   <tr align="center">
     <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/10.gif" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/10.gif" width="170px"><br>
     </td>
     <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/11.gif" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/11.gif" width="170px"><br>
     </td>
     <td>
-      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/9.gif" width="120px"><br>
+      <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/9.gif" width="170px"><br>
     </td>
   </tr>
 </table>
