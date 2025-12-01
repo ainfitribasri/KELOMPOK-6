@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/canva%20stunting%20(1).jpg" width="800"/>
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Foto/Oranye dan Hijau Ilustrasi Stunting dan Dampaknya Presentation.png" width="800"/>
 </p>
 
 # Analisis Faktor-Faktor yang Mempengaruhi Stunting di Provinsi NTT Tahun 2024
