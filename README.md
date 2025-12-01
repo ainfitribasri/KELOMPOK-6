@@ -42,9 +42,9 @@ Metode yang digunakan dalam penelitian ini meliputi:
       - Uji Normalitas
       - Uji Heteroskedastisitas
       - Uji Multikolinearitas
-2. **Seleksi Variabel**
+3. **Seleksi Variabel**
    - Stepwise Regression
-3. **Analisis Regresi Berganda**
+4. **Analisis Regresi Berganda**
    - Uji Signifikansi Parsial
    - Uji Signifikansi Simultan
    - Goodness of Fit
@@ -87,25 +87,160 @@ Metode yang digunakan dalam penelitian ini meliputi:
 ## 📉 Hasil Penelitian
 1. **Model Awal dengan Seluruh Variabel**
    
+$$
+ST = 0.1997 + 0.3303(PM) + 1.6608(BW) - 0.3032(ASL) + 0.1157 (AML) + 0.5797(LS) - 0.1650(ASI) 
+$$
+
    - Uji Signifikansi Parsial
+     
+     | Variabel | P-Value | Keterangan | 
+     |----------|---------|------------|
+     | PM | 0.3649 | Tidak signifikan |
+     | BW | 0.0178 | Signifikan |
+     | ASL | 0.0919 | Tidak Signifikan |
+     | AML | 0.6090 | Tidak Signifikan |
+     | LS | 0.7665 | Tidak Signifikan |
+     | ASI | 0.7300 | Tidak Signifikan |
+     
    - Uji Signifikansi Simultan
+     
+     | F-Statistic | P-Value |
+     |-------------|---------|
+     | 1.904 | 0.146 |
+     
    - Goodness of Fit
+
+     | R-Squared | Adj. R-Squared |
+     |-----------|---------|
+     | 0.4323 | 0.2052 |
+
    - Uji Asumsi Klasik
       - Uji Normalitas
+        
+        | W | P-Value |
+        |---------|--------|
+        | 0.94629 | 0.2661 |
+
       - Uji Heteroskedastisitas
+        
+        | Breusch-Pagan Test | P-Value |
+        |--------------------|---------|
+        | 8.488 | 0.2044 |
+        
       - Uji Multikolinearitas
+        
+        | Variabel | VIF |
+        |----------|---------|
+        | PM | 2,8126 |
+        | BW | 1.7116 |
+        | ASL | 2.5617 |
+        | AML | 2.4315 |
+        | LS | 1.9817 |
+        | ASI | 1.4695 |
+     
+        
 3. **Seleksi Variabel**
    - Stepwise Regression
+     Seleksi variabel lanjutan dilakukan menggunakan metode stepwise (backward) berbasis kriteria AIC. Proses backward secara bertahap mengeluarkan variabel yang tidak signifikan dan menyimpan variabel yang signifikan. didapatkan 2 variabel yang signifikan yaitu :
+
+     | Variabel | P-Value | Keterangan |
+     |----------|---------|------------|
+     | BW | 0,00538 | Signifikan |
+     | ASL | 0,00905 | signifikan |
+
+pada hasil akhir menunjukkan bahwa BW dan ASL adalah dua variabel yang paling berpengaruh terhadap tingkat stunting, sementara variabel lain tidak meningkatkan performa model. berdasarkan hasil variabel signifikan diatas, maka model terbaik yang dipilih berdasarkan nilai AIC dan BIC yaitu :
+
+| Model | AIC | BIC |
+|-------|-----|-----|
+| Model Awal (6 variabel | -50,85 | -42,12 |
+| Model Backward (2 variabel) | -57,52 | -53,16 |
+
+Model dengan nilai AIC dan BIC lebih rendah dianggap lebih baik.
+Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibanding model awal.
+
+#### Visualisasi Variabel Terpilih
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="500"/>
+  <br>
+  <b>Gambar 2. Persebaran stunting di Nusa Tenggara Timur</b>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="500"/>
+  <br>
+  <b>Gambar 3. Persebaran Balita Wasting di Nusa Tenggara Timur</b>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="500"/>
+  <br>
+  <b>Gambar 4. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
+</p>
+
 4. **Analisis Regresi Berganda**
+   Model regresi berganda yang terbentuk adalah sebagai berikut:
+
+$$
+ST = 0.27515 + 1.55303(BW) - 0.31686(ASL) 
+$$
+
+| Variabel | Koefisien | P-Value | Interpretasi |
+|-----------|----------|---------|--------------|
+| BW | +1.553 | 0.005 | Setiap kenaikan 1% balita wasting meningkatkan prevalensi stunting sebesar 1.553% |
+| ASL | -0.317 | 0.009 | Setiap kenaikan 1% akses sanitasi layak menurunkan prevalensi stunting sebesar 0.317% |
+
    - Uji Signifikansi Parsial
    - Uji Signifikansi Simultan
+     | F-Statistic | P-Value |
+|-------------|---------|
+| 6,253 | 0,00819 |
+
+  Secara simultan, model regresi yang terbentuk memberikan hasil signifikan, dengan nilai _p-value_ 0.00819 < 0.05. Hal ini menunjukkan bahwa variabel BW dan ASL secara bersama-sama memiliki pengaruh yang signifikan terhadap prevalensi stunting. Dengan demikian, model akhir layak digunakan untuk menjelaskan variasi stunting antar wilayah.
+  
    - Goodness of Fit
+     
+     | R-Squared | Adj. R-Squared |
+     |-------------|---------|
+     | 0,3969 | 0,3335 |
+  
+  Model memberikan nilai R-squared sebesar 0.3969 dan Adjusted R-squared sebesar 0.3335, yang berarti bahwa 33.35% variasi prevalensi stunting dapat dijelaskan oleh variabel BW dan ASL.
+  
+  Selain itu, model akhir memiliki AIC yang lebih rendah dibandingkan model awal, sehingga dapat disimpulkan bahwa model akhir lebih efisien dan mampu memberikan penjelasan yang baik tanpa menambah kompleksitas yang tidak perlu.
+  
    - Uji Asumsi Klasik
       - Uji Normalitas
+        
+        | W | P-Value |
+        |---------|---------|
+        | 0,9411 | 0,2084 |
+
+   Uji Shapiro-Wilk terhadap residual menghasilkan _p-value_ sebesar 0.2084. Karena _p-value_ > 0.05, residual dapat dianggap berdistribusi normal. Hal ini juga diperkuat oleh tampilan QQ-plot, dimana titik-titik residual mengikuti garis diagonal.
+   <p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="50%"/>
+</p>
+
       - Uji Heteroskedastisitas
+      
+  | Breusch-Pagan Test | P-Value |
+  |--------------------|---------|
+  | 4,2378 | 0,1202 |
+
+   Berdasarkan _Breusch-Pagan Test_(BP), diperoleh nilai _p-value_ 0.1202. Karena nilai _p-value_ > 0.05, maka tidak terdapat indikasi heteroskedastisitas dalam model. Plot _residual vs fitted_ juga menunjukkan pola penyebaran yang acak, semakin menguatkan kesimpulan tersebut.
+   <p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="50%"/>
+</p>
       - Uji Multikolinearitas
     
-        
+  | Variabel | VIF |
+  |----------|---------|
+  | BW | 1,280275 |
+  | ASL | 1,280275 |
+
+   Pengujian multikolinearitas menggunakan VIF menunjukkan bahwa variabel BW dan ASL masing-masing memiliki VIF sebesar 1.280275. Karena nilainya jauh dibawah batas kritis (VIF < 10), maka dapat disimpulkan bahwa tidak terdapat multikolinearitas antar variabel dalam model.
+
+
+
+    
 ### 🔍 Seleksi Variabel (Variabel Selection)
 #### 1. Uji Signifikansi Parsial
 Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (Persentase Stunting) secara individual.
