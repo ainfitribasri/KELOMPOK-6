@@ -12,26 +12,83 @@ data <- read_excel("DATA PEMPRO KELOMPOK.xlsx")
 ## Convert angka format koma menjadi titik
 data[, -1] <- lapply(data[, -1], function(x) as.numeric(gsub(",", ".", x)))
 data[, -1] <- data[, -1] / 100
+summary(data)
 
-# Model Awal
+# Model Awal dengan Seluruh Variabel
+model<-lm(ST~PM+BW+ASL+AML+LS+ASI,data = data)
+summary(model)
+
 ## Uji Signifikansi Parsial (Uji t)
 summary(model)$coefficients
 ## Uji Signifikansi Simultan (Uji F)
 summary(model)$f
+## Goodness of Fit
+summary(model)$r.squared
+summary(model)$adj.r.squared
+
+#Asumsi Klasik
+## Uji Normalitas
+shapiro.test(residuals(model))
+
+### QQ-Plot
+qq_data <- data.frame(
+  sample = residuals(model)
+)
+ggplot(qq_data, aes(sample = sample)) +
+  stat_qq(color = "#1F78B4", size = 2, alpha = 0.7) +
+  stat_qq_line(color = "red", size = 1) +
+  labs(
+    title = "QQ Plot Residual Model",
+    x = "Theoretical Quantiles",
+    y = "Sample Quantiles"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    panel.grid.minor = element_blank()
+  )
+
+## Uji Heteroskedastisitas
+library(lmtest)
+bptest(model)
+
+### Residual vs Fitted Plot
+res_data <- data.frame(
+  fitted = model$fitted.values,
+  residuals = residuals(model)
+)
+ggplot(res_data, aes(x = fitted, y = residuals)) +
+  geom_point(color = "#1F78B4", size = 2, alpha = 0.7) +
+  geom_hline(yintercept = 0, color = "red", size = 1) +
+  labs(
+    title = "Residual vs Fitted Plot",
+    x = "Nilai Prediksi (Fitted)",
+    y = "Residual"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    panel.grid.minor = element_blank()
+  )
+
+## Uji Multikolinearitas
+library(car)
+vif(model)
 
 # Seleksi Variabel
-## Backward Stepwise Regression
+## Stepwise Regression -Backward-
 model_backward <- stats::step(model, direction = "backward")
 ## Bandingkan AIC/BIC
 AIC(model, model_backward)
 BIC(model, model_backward)
 
-# Model Akhir
-## Statistik deskriptif
-desc <- psych::describe(data)
-print(desc)
+# Analisis Regresi Berganda
 model_backward
-## Uji Kelayakan Model
+summary(model_backward)
+
+## Uji Signifikansi Parsial (Uji t)
+summary(model_backward)$coefficients
+## Uji Signifikansi Simultan (Uji F)
 summary(model_backward)$f
 ## Goodness of Fit
 summary(model_backward)$r.squared
