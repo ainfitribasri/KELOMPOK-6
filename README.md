@@ -95,7 +95,7 @@ Metode yang digunakan dalam penelitian ini meliputi:
    Model regresi berganda yang terbentuk adalah sebagai berikut:
    
 $$
-ST = 0.1997 + 0.3303(PM) + 1.6608(BW) - 0.3032(ASL) + 0.1157 (AML) + 0.5797(LS) - 0.1650(ASI) 
+ST = 0.1997 + 1.6608(BW)
 $$
 
   - Uji Signifikansi Parsial
