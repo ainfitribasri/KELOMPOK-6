@@ -98,6 +98,14 @@ $$
 ST = 0.1997 + 1.6608(BW)
 $$
 
+<p align="center">
+  <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Hubungan ST dan BW.png" width="500"/>
+  <br>
+  <b>Gambar 2. Hubungan antara Balita Wasting dan Stunting di NTT 2024</b>
+</p>
+  
+   Grafik diatas menunjukkan bahwa terdapat hubungan positif antara persentase balita wasting dan persentase stunting di NTT pada tahun 2024. Daerah dengan persentase wasting yang lebih tinggi cenderung memiliki persentase stunting yang lebih tinggi. Meskipun demikian, sebaran titik data menunjukkan bahwa hubungan tersebut tidak terlalu kuat sehingga mengindikasikan bahwa balita wasting bukan satu-satunya faktor yang memengaruhi kejadian stunting, dan faktor lain seperti pola makan, lingkungan, dan sosial-ekonomi juga turut berperan.
+
   - Uji Signifikansi Parsial
 
     Uji signifikansi parsial digunakan untuk melihat apakah masing-masing variabel independen memiliki pengaruh signifikan terhadap variabel dependen (Persentase Stunting) secara individual.
@@ -192,19 +200,19 @@ Maka model backward (BW + ASL) merupakan model optimal dan lebih efisien dibandi
 <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/stunting.png" width="500"/>
   <br>
-  <b>Gambar 2. Persebaran stunting di Nusa Tenggara Timur</b>
+  <b>Gambar 3. Persebaran stunting di Nusa Tenggara Timur</b>
 </p>
 
 <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/balita%20wasting.png" width="500"/>
   <br>
-  <b>Gambar 3. Persebaran Balita Wasting di Nusa Tenggara Timur</b>
+  <b>Gambar 4. Persebaran Balita Wasting di Nusa Tenggara Timur</b>
 </p>
 
 <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/SANITASI%20LAYAK%20BENER.png" width="500"/>
   <br>
-  <b>Gambar 4. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
+  <b>Gambar 5. Persebaran Rumah Tangga dengan Akses Sanitasi Layak di Nusa Tenggara Timur</b>
 </p>
 
 3. **Analisis Regresi Berganda**
@@ -252,7 +260,7 @@ $$
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/QQ-Plot.png" width="50%"/>
   <br>
-  <b>Gambar 5. QQ Plot Residual Model</b>
+  <b>Gambar 6. QQ Plot Residual Model</b>
 </p>
 
 - Uji Heteroskedastisitas
@@ -265,7 +273,7 @@ $$
    <p align="center">
   <img src="https://github.com/ainfitribasri/KELOMPOK-6/blob/main/Foto/Residual vs Fitted Plot.png" width="50%"/>
   <br>
-  <b>Gambar 6. Residual vs Fitted Plot</b>
+  <b>Gambar 7. Residual vs Fitted Plot</b>
 </p>
       
 - Uji Multikolinearitas
