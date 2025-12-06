@@ -75,6 +75,18 @@ ggplot(res_data, aes(x = fitted, y = residuals)) +
 library(car)
 vif(model)
 
+# Visualisasi Model Regresi
+## Scatter plot dengan garis regresi linear
+ggplot(data, aes(x = BW, y = ST)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Hubungan antara Balita Wasting dan Stunting di NTT (2024)",
+    x = "Persentase Balita Wasting (%)",
+    y = "Persentase Stunting (%)"
+  ) +
+  theme_minimal()
+
 # Seleksi Variabel
 ## Stepwise Regression -Backward-
 model_backward <- stats::step(model, direction = "backward")
@@ -137,6 +149,7 @@ ggplot(res_data, aes(x = fitted, y = residuals)) +
   )
 ## Uji Multikolinearitas
 vif(model_backward)
+
 
 
 
